@@ -17,7 +17,7 @@ YMaps.jQuery(function () {
     noTips: true
   }), new YMaps.ControlPosition(YMaps.ControlPosition.TOP_LEFT, new YMaps.Point(5, 240)));
 
-  //Стили иконок
+  //ЕѓЕ€ДЌГ«ДЌ ДЌД™Г®Г­Г®Д™
   for (var i = 1; i <= 30; i++) {
     YMaps.Styles.add('my#style' + i, {
       iconStyle: {
@@ -28,430 +28,430 @@ YMaps.jQuery(function () {
     })
   };
   
-  //Группы
+  //Д‚Д‘ГіДЏДЏЕ±
   groups = [
-    createGroup("Лагерь", 1, [
-      createPlacemark(new YMaps.GeoPoint(-174.982, 84.522), "Высота Драконий Мост"),
-      createPlacemark(new YMaps.GeoPoint(-176.571, 84.176), "Картспайр"),
-      createPlacemark(new YMaps.GeoPoint(-176.387, 84.195), "Лагерь Картспайр"),
-      createPlacemark(new YMaps.GeoPoint(-168.219, 84.248), "Лагерь Чистых родников"),
-      createPlacemark(new YMaps.GeoPoint(-177.786, 84.470), "Оплот Друадах"),
-      createPlacemark(new YMaps.GeoPoint(-174.596, 84.108), "Оплот Змеиный Утес"),
-      createPlacemark(new YMaps.GeoPoint(-173.671, 84.406), "Теснина грабителя"),
-      createPlacemark(new YMaps.GeoPoint(-173.158, 83.743), "Хребет Острие Ножа")
+    createGroup("Г‹Е•ДѓДєД‘Гј", 1, [
+      createPlacemark(new YMaps.GeoPoint(-174.982, 84.522), "Г‚Е±Е„Г®Е€Е• Г„Д‘Е•Д™Г®Г­ДЌГ© ДљГ®Е„Е€"),
+      createPlacemark(new YMaps.GeoPoint(-176.571, 84.176), "ДЕ•Д‘Е€Е„ДЏЕ•Г©Д‘"),
+      createPlacemark(new YMaps.GeoPoint(-176.387, 84.195), "Г‹Е•ДѓДєД‘Гј ДЕ•Д‘Е€Е„ДЏЕ•Г©Д‘"),
+      createPlacemark(new YMaps.GeoPoint(-168.219, 84.248), "Г‹Е•ДѓДєД‘Гј Г—ДЌЕ„Е€Е±Е‘ Д‘Г®Г¤Г­ДЌД™Г®Гў"),
+      createPlacemark(new YMaps.GeoPoint(-177.786, 84.470), "ГЋДЏГ«Г®Е€ Г„Д‘ГіЕ•Г¤Е•Е‘"),
+      createPlacemark(new YMaps.GeoPoint(-174.596, 84.108), "ГЋДЏГ«Г®Е€ Г‡Д›ДєДЌГ­Е±Г© Г“Е€ДєЕ„"),
+      createPlacemark(new YMaps.GeoPoint(-173.671, 84.406), "Е‡ДєЕ„Г­ДЌГ­Е• ДѓД‘Е•ГЎДЌЕ€ДєГ«Л™"),
+      createPlacemark(new YMaps.GeoPoint(-173.158, 83.743), "ЕђД‘ДєГЎДєЕ€ ГЋЕ„Е€Д‘ДЌДє ГЌГ®Д‡Е•")
     ], "my#style1"),
 
-    createGroup("Пещера", 2, [
-      createPlacemark(new YMaps.GeoPoint(-174.288, 84.825), "Воронья нора"),
-      createPlacemark(new YMaps.GeoPoint(-173.572, 83.811), "Гленморильский ковен"),
-      createPlacemark(new YMaps.GeoPoint(-164.559, 84.133), "Глубокая Тень"),
-      createPlacemark(new YMaps.GeoPoint(-168.241, 83.589), "Грот Серая Вода"),
-      createPlacemark(new YMaps.GeoPoint(-172.908, 84.892), "Грот Сломанное Весло"),
-      createPlacemark(new YMaps.GeoPoint(-172.238, 84.857), "Грот Соленая Вода"),
-      createPlacemark(new YMaps.GeoPoint(-171.214, 83.919), "Грот Утопленника"),
-      createPlacemark(new YMaps.GeoPoint(-164.167, 84.432), "Забытая пещера"),
-      createPlacemark(new YMaps.GeoPoint(-166.473, 84.478), "Закатная расщелина"),
-      createPlacemark(new YMaps.GeoPoint(-165.882, 84.771), "Ингвильд"),
-      createPlacemark(new YMaps.GeoPoint(-175.289, 84.277), "Каирн Мятежника"),
-      createPlacemark(new YMaps.GeoPoint(-171.565, 83.566), "Каирн Холдира"),
-      createPlacemark(new YMaps.GeoPoint(-160.989, 83.733), "Камнепадная пещера"),
-      createPlacemark(new YMaps.GeoPoint(-160.083, 83.411), "Кристаллическая пещера"),
-      createPlacemark(new YMaps.GeoPoint(-170.882, 84.567), "Логово Моварта"),
-      createPlacemark(new YMaps.GeoPoint(-171.645, 84.151), "Логово Плута"),
-      createPlacemark(new YMaps.GeoPoint(-175.755, 84.173), "Логово Сольюнда"),
-      createPlacemark(new YMaps.GeoPoint(-158.423, 83.479), "Лощина Сломанный Шлем"),
-      createPlacemark(new YMaps.GeoPoint(-164.650, 83.683), "Медовая пещера"),
-      createPlacemark(new YMaps.GeoPoint(-177.315, 84.734), "Морозная пещера"),
-      createPlacemark(new YMaps.GeoPoint(-174.798, 83.992), "Мрачный Предел"),
-      createPlacemark(new YMaps.GeoPoint(-172.290, 83.853), "Мшистая пещера"),
-      createPlacemark(new YMaps.GeoPoint(-163.508, 84.573), "Неприметное убежище"),
-      createPlacemark(new YMaps.GeoPoint(-176.428, 84.792), "Нижняя Отвесная нора"),
-      createPlacemark(new YMaps.GeoPoint(-177.094, 84.122), "Озерный утес"),
-      createPlacemark(new YMaps.GeoPoint(-176.171, 84.231), "Оплот Красный Орел"),
-      createPlacemark(new YMaps.GeoPoint(-176.079, 84.490), "Оплот Прыжок Брюсы"),
-      createPlacemark(new YMaps.GeoPoint(-172.943, 84.349), "Оротхейм"),
-      createPlacemark(new YMaps.GeoPoint(-176.322, 84.765), "Отвесная нора"),
-      createPlacemark(new YMaps.GeoPoint(-160.356, 84.127), "Откос Крегвеллоу"),
-      createPlacemark(new YMaps.GeoPoint(-164.432, 84.387), "Пещера Бронзовая Вода"),
-      createPlacemark(new YMaps.GeoPoint(-174.549, 84.752), "Пещера Волчий Череп"),
-      createPlacemark(new YMaps.GeoPoint(-163.354, 84.257), "Пещера Говорящие Холмы"),
-      createPlacemark(new YMaps.GeoPoint(-158.284, 83.637), "Пещера Желтый Камень"),
-      createPlacemark(new YMaps.GeoPoint(-176.311, 84.696), "Пещера Заблудшее Эхо"),
-      createPlacemark(new YMaps.GeoPoint(-173.396, 84.814), "Пещера Зеленая Тень"),
-      createPlacemark(new YMaps.GeoPoint(-159.298, 83.997), "Пещера Каменный Ручей"),
-      createPlacemark(new YMaps.GeoPoint(-159.807, 83.940), "Пещера Крегслейн"),
-      createPlacemark(new YMaps.GeoPoint(-162.346, 84.107), "Пещера Кронвангр"),
-      createPlacemark(new YMaps.GeoPoint(-175.642, 84.654), "Пещера Лунный Бор"),
-      createPlacemark(new YMaps.GeoPoint(-161.907, 84.494), "Пещера Мертворожденного"),
-      createPlacemark(new YMaps.GeoPoint(-166.409, 84.206), "Пещера Мерцающий Туман"),
-      createPlacemark(new YMaps.GeoPoint(-177.112, 84.279), "Пещера Отвесный Утес"),
-      createPlacemark(new YMaps.GeoPoint(-172.025, 84.055), "Пещера Сломанный Клык"),
-      createPlacemark(new YMaps.GeoPoint(-164.940, 83.821), "Пещера Сосновый Пик"),
-      createPlacemark(new YMaps.GeoPoint(-159.075, 83.870), "Пещера Толвальда"),
-      createPlacemark(new YMaps.GeoPoint(-166.029, 83.651), "Пещера Хеймара"),
-      createPlacemark(new YMaps.GeoPoint(-165.282, 84.666), "Пещера Хоба"),
-      createPlacemark(new YMaps.GeoPoint(-160.976, 84.639), "Пещера Холодный Берег"),
-      createPlacemark(new YMaps.GeoPoint(-162.631, 84.897), "Пост Септимия Сегония"),
-      createPlacemark(new YMaps.GeoPoint(-166.723, 84.056), "Приречная застава"),
-      createPlacemark(new YMaps.GeoPoint(-175.513, 84.428), "Пристанище Лжеца"),
-      createPlacemark(new YMaps.GeoPoint(-169.924, 84.186), "Приют Редорана"),
-      createPlacemark(new YMaps.GeoPoint(-174.865, 84.473), "Провал Сквозняков"),
-      createPlacemark(new YMaps.GeoPoint(-172.216, 84.382), "Разводная пещера"),
-      createPlacemark(new YMaps.GeoPoint(-172.507, 83.917), "Разделенное ущелье"),
-      createPlacemark(new YMaps.GeoPoint(-162.371, 84.009), "Святилище Великого Древа"),
-      createPlacemark(new YMaps.GeoPoint(-170.404, 83.930), "Северный Ноголомный проход"),
-      createPlacemark(new YMaps.GeoPoint(-166.317, 84.124), "Серозимняя застава"),
-      createPlacemark(new YMaps.GeoPoint(-168.993, 83.593), "Сквозняковый проход"),
-      createPlacemark(new YMaps.GeoPoint(-159.409, 83.490), "Соловьиный зал"),
-      createPlacemark(new YMaps.GeoPoint(-163.775, 83.966), "Убежище Потерянный Нож"),
-      createPlacemark(new YMaps.GeoPoint(-176.717, 84.073), "Утесная пещера"),
-      createPlacemark(new YMaps.GeoPoint(-162.805, 83.872), "Черный проход"),
-      createPlacemark(new YMaps.GeoPoint(-178.041, 84.020), "Чистый ручей"),
-      createPlacemark(new YMaps.GeoPoint(-162.605, 83.810), "Щелкающая пещера"),
-      createPlacemark(new YMaps.GeoPoint(-167.345, 83.496), "Южное святилище"),
-      createPlacemark(new YMaps.GeoPoint(-170.221, 83.848), "Южный Ноголомный проход")
+    createGroup("ДЋДєЕЇДєД‘Е•", 2, [
+      createPlacemark(new YMaps.GeoPoint(-174.288, 84.825), "Г‚Г®Д‘Г®Г­ГјЛ™ Г­Г®Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-173.572, 83.811), "Д‚Г«ДєГ­Д›Г®Д‘ДЌГ«ГјЕ„Д™ДЌГ© Д™Г®ГўДєГ­"),
+      createPlacemark(new YMaps.GeoPoint(-164.559, 84.133), "Д‚Г«ГіГЎГ®Д™Е•Л™ Е‡ДєГ­Гј"),
+      createPlacemark(new YMaps.GeoPoint(-168.241, 83.589), "Д‚Д‘Г®Е€ ЕѓДєД‘Е•Л™ Г‚Г®Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-172.908, 84.892), "Д‚Д‘Г®Е€ ЕѓГ«Г®Д›Е•Г­Г­Г®Дє Г‚ДєЕ„Г«Г®"),
+      createPlacemark(new YMaps.GeoPoint(-172.238, 84.857), "Д‚Д‘Г®Е€ ЕѓГ®Г«ДєГ­Е•Л™ Г‚Г®Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-171.214, 83.919), "Д‚Д‘Г®Е€ Г“Е€Г®ДЏГ«ДєГ­Г­ДЌД™Е•"),
+      createPlacemark(new YMaps.GeoPoint(-164.167, 84.432), "Г‡Е•ГЎЕ±Е€Е•Л™ ДЏДєЕЇДєД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-166.473, 84.478), "Г‡Е•Д™Е•Е€Г­Е•Л™ Д‘Е•Е„ЕЇДєГ«ДЌГ­Е•"),
+      createPlacemark(new YMaps.GeoPoint(-165.882, 84.771), "ДЊГ­ДѓГўДЌГ«ГјГ¤"),
+      createPlacemark(new YMaps.GeoPoint(-175.289, 84.277), "ДЕ•ДЌД‘Г­ ДљЛ™Е€ДєД‡Г­ДЌД™Е•"),
+      createPlacemark(new YMaps.GeoPoint(-171.565, 83.566), "ДЕ•ДЌД‘Г­ ЕђГ®Г«Г¤ДЌД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-160.989, 83.733), "ДЕ•Д›Г­ДєДЏЕ•Г¤Г­Е•Л™ ДЏДєЕЇДєД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-160.083, 83.411), "ДД‘ДЌЕ„Е€Е•Г«Г«ДЌГ·ДєЕ„Д™Е•Л™ ДЏДєЕЇДєД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-170.882, 84.567), "Г‹Г®ДѓГ®ГўГ® ДљГ®ГўЕ•Д‘Е€Е•"),
+      createPlacemark(new YMaps.GeoPoint(-171.645, 84.151), "Г‹Г®ДѓГ®ГўГ® ДЋГ«ГіЕ€Е•"),
+      createPlacemark(new YMaps.GeoPoint(-175.755, 84.173), "Г‹Г®ДѓГ®ГўГ® ЕѓГ®Г«ГјЕЈГ­Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-158.423, 83.479), "Г‹Г®ЕЇДЌГ­Е• ЕѓГ«Г®Д›Е•Г­Г­Е±Г© ЕГ«ДєД›"),
+      createPlacemark(new YMaps.GeoPoint(-164.650, 83.683), "ДљДєГ¤Г®ГўЕ•Л™ ДЏДєЕЇДєД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-177.315, 84.734), "ДљГ®Д‘Г®Г§Г­Е•Л™ ДЏДєЕЇДєД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-174.798, 83.992), "ДљД‘Е•Г·Г­Е±Г© ДЋД‘ДєГ¤ДєГ«"),
+      createPlacemark(new YMaps.GeoPoint(-172.290, 83.853), "ДљЕ™ДЌЕ„Е€Е•Л™ ДЏДєЕЇДєД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-163.508, 84.573), "ГЌДєДЏД‘ДЌД›ДєЕ€Г­Г®Дє ГіГЎДєД‡ДЌЕЇДє"),
+      createPlacemark(new YMaps.GeoPoint(-176.428, 84.792), "ГЌДЌД‡Г­Л™Л™ ГЋЕ€ГўДєЕ„Г­Е•Л™ Г­Г®Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-177.094, 84.122), "ГЋГ§ДєД‘Г­Е±Г© ГіЕ€ДєЕ„"),
+      createPlacemark(new YMaps.GeoPoint(-176.171, 84.231), "ГЋДЏГ«Г®Е€ ДД‘Е•Е„Г­Е±Г© ГЋД‘ДєГ«"),
+      createPlacemark(new YMaps.GeoPoint(-176.079, 84.490), "ГЋДЏГ«Г®Е€ ДЋД‘Е±Д‡Г®Д™ ГЃД‘ЕЈЕ„Е±"),
+      createPlacemark(new YMaps.GeoPoint(-172.943, 84.349), "ГЋД‘Г®Е€Е‘ДєГ©Д›"),
+      createPlacemark(new YMaps.GeoPoint(-176.322, 84.765), "ГЋЕ€ГўДєЕ„Г­Е•Л™ Г­Г®Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-160.356, 84.127), "ГЋЕ€Д™Г®Е„ ДД‘ДєДѓГўДєГ«Г«Г®Гі"),
+      createPlacemark(new YMaps.GeoPoint(-164.432, 84.387), "ДЋДєЕЇДєД‘Е• ГЃД‘Г®Г­Г§Г®ГўЕ•Л™ Г‚Г®Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-174.549, 84.752), "ДЋДєЕЇДєД‘Е• Г‚Г®Г«Г·ДЌГ© Г—ДєД‘ДєДЏ"),
+      createPlacemark(new YMaps.GeoPoint(-163.354, 84.257), "ДЋДєЕЇДєД‘Е• Д‚Г®ГўГ®Д‘Л™ЕЇДЌДє ЕђГ®Г«Д›Е±"),
+      createPlacemark(new YMaps.GeoPoint(-158.284, 83.637), "ДЋДєЕЇДєД‘Е• Д†ДєГ«Е€Е±Г© ДЕ•Д›ДєГ­Гј"),
+      createPlacemark(new YMaps.GeoPoint(-176.311, 84.696), "ДЋДєЕЇДєД‘Е• Г‡Е•ГЎГ«ГіГ¤Е™ДєДє ГќЕ‘Г®"),
+      createPlacemark(new YMaps.GeoPoint(-173.396, 84.814), "ДЋДєЕЇДєД‘Е• Г‡ДєГ«ДєГ­Е•Л™ Е‡ДєГ­Гј"),
+      createPlacemark(new YMaps.GeoPoint(-159.298, 83.997), "ДЋДєЕЇДєД‘Е• ДЕ•Д›ДєГ­Г­Е±Г© ДђГіГ·ДєГ©"),
+      createPlacemark(new YMaps.GeoPoint(-159.807, 83.940), "ДЋДєЕЇДєД‘Е• ДД‘ДєДѓЕ„Г«ДєГ©Г­"),
+      createPlacemark(new YMaps.GeoPoint(-162.346, 84.107), "ДЋДєЕЇДєД‘Е• ДД‘Г®Г­ГўЕ•Г­ДѓД‘"),
+      createPlacemark(new YMaps.GeoPoint(-175.642, 84.654), "ДЋДєЕЇДєД‘Е• Г‹ГіГ­Г­Е±Г© ГЃГ®Д‘"),
+      createPlacemark(new YMaps.GeoPoint(-161.907, 84.494), "ДЋДєЕЇДєД‘Е• ДљДєД‘Е€ГўГ®Д‘Г®Д‡Г¤ДєГ­Г­Г®ДѓГ®"),
+      createPlacemark(new YMaps.GeoPoint(-166.409, 84.206), "ДЋДєЕЇДєД‘Е• ДљДєД‘Г¶Е•ЕЈЕЇДЌГ© Е‡ГіД›Е•Г­"),
+      createPlacemark(new YMaps.GeoPoint(-177.112, 84.279), "ДЋДєЕЇДєД‘Е• ГЋЕ€ГўДєЕ„Г­Е±Г© Г“Е€ДєЕ„"),
+      createPlacemark(new YMaps.GeoPoint(-172.025, 84.055), "ДЋДєЕЇДєД‘Е• ЕѓГ«Г®Д›Е•Г­Г­Е±Г© ДГ«Е±Д™"),
+      createPlacemark(new YMaps.GeoPoint(-164.940, 83.821), "ДЋДєЕЇДєД‘Е• ЕѓГ®Е„Г­Г®ГўЕ±Г© ДЋДЌД™"),
+      createPlacemark(new YMaps.GeoPoint(-159.075, 83.870), "ДЋДєЕЇДєД‘Е• Е‡Г®Г«ГўЕ•Г«ГјГ¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-166.029, 83.651), "ДЋДєЕЇДєД‘Е• ЕђДєГ©Д›Е•Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-165.282, 84.666), "ДЋДєЕЇДєД‘Е• ЕђГ®ГЎЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-160.976, 84.639), "ДЋДєЕЇДєД‘Е• ЕђГ®Г«Г®Г¤Г­Е±Г© ГЃДєД‘ДєДѓ"),
+      createPlacemark(new YMaps.GeoPoint(-162.631, 84.897), "ДЋГ®Е„Е€ ЕѓДєДЏЕ€ДЌД›ДЌЛ™ ЕѓДєДѓГ®Г­ДЌЛ™"),
+      createPlacemark(new YMaps.GeoPoint(-166.723, 84.056), "ДЋД‘ДЌД‘ДєГ·Г­Е•Л™ Г§Е•Е„Е€Е•ГўЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-175.513, 84.428), "ДЋД‘ДЌЕ„Е€Е•Г­ДЌЕЇДє Г‹Д‡ДєГ¶Е•"),
+      createPlacemark(new YMaps.GeoPoint(-169.924, 84.186), "ДЋД‘ДЌЕЈЕ€ ДђДєГ¤Г®Д‘Е•Г­Е•"),
+      createPlacemark(new YMaps.GeoPoint(-174.865, 84.473), "ДЋД‘Г®ГўЕ•Г« ЕѓД™ГўГ®Г§Г­Л™Д™Г®Гў"),
+      createPlacemark(new YMaps.GeoPoint(-172.216, 84.382), "ДђЕ•Г§ГўГ®Г¤Г­Е•Л™ ДЏДєЕЇДєД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-172.507, 83.917), "ДђЕ•Г§Г¤ДєГ«ДєГ­Г­Г®Дє ГіЕЇДєГ«ГјДє"),
+      createPlacemark(new YMaps.GeoPoint(-162.371, 84.009), "ЕѓГўЛ™Е€ДЌГ«ДЌЕЇДє Г‚ДєГ«ДЌД™Г®ДѓГ® Г„Д‘ДєГўЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-170.404, 83.930), "ЕѓДєГўДєД‘Г­Е±Г© ГЌГ®ДѓГ®Г«Г®Д›Г­Е±Г© ДЏД‘Г®Е‘Г®Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-166.317, 84.124), "ЕѓДєД‘Г®Г§ДЌД›Г­Л™Л™ Г§Е•Е„Е€Е•ГўЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-168.993, 83.593), "ЕѓД™ГўГ®Г§Г­Л™Д™Г®ГўЕ±Г© ДЏД‘Г®Е‘Г®Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-159.409, 83.490), "ЕѓГ®Г«Г®ГўГјДЌГ­Е±Г© Г§Е•Г«"),
+      createPlacemark(new YMaps.GeoPoint(-163.775, 83.966), "Г“ГЎДєД‡ДЌЕЇДє ДЋГ®Е€ДєД‘Л™Г­Г­Е±Г© ГЌГ®Д‡"),
+      createPlacemark(new YMaps.GeoPoint(-176.717, 84.073), "Г“Е€ДєЕ„Г­Е•Л™ ДЏДєЕЇДєД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-162.805, 83.872), "Г—ДєД‘Г­Е±Г© ДЏД‘Г®Е‘Г®Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-178.041, 84.020), "Г—ДЌЕ„Е€Е±Г© Д‘ГіГ·ДєГ©"),
+      createPlacemark(new YMaps.GeoPoint(-162.605, 83.810), "Е®ДєГ«Д™Е•ЕЈЕЇЕ•Л™ ДЏДєЕЇДєД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-167.345, 83.496), "ЕўД‡Г­Г®Дє Е„ГўЛ™Е€ДЌГ«ДЌЕЇДє"),
+      createPlacemark(new YMaps.GeoPoint(-170.221, 83.848), "ЕўД‡Г­Е±Г© ГЌГ®ДѓГ®Г«Г®Д›Г­Е±Г© ДЏД‘Г®Е‘Г®Г¤")
     ], "my#style2"),
 
-    createGroup("Поляна", 3, [
-      createPlacemark(new YMaps.GeoPoint(-160.498, 83.669), "Осенняя поляна"),
-      createPlacemark(new YMaps.GeoPoint(-163.027, 84.195), "Пруд Глаз Мары"),
-      createPlacemark(new YMaps.GeoPoint(-175.195, 84.669), "Пруд Чистых сосен"),
-      createPlacemark(new YMaps.GeoPoint(-161.673, 83.820), "Чистое озеро")
+    createGroup("ДЋГ®Г«Л™Г­Е•", 3, [
+      createPlacemark(new YMaps.GeoPoint(-160.498, 83.669), "ГЋЕ„ДєГ­Г­Л™Л™ ДЏГ®Г«Л™Г­Е•"),
+      createPlacemark(new YMaps.GeoPoint(-163.027, 84.195), "ДЋД‘ГіГ¤ Д‚Г«Е•Г§ ДљЕ•Д‘Е±"),
+      createPlacemark(new YMaps.GeoPoint(-175.195, 84.669), "ДЋД‘ГіГ¤ Г—ДЌЕ„Е€Е±Е‘ Е„Г®Е„ДєГ­"),
+      createPlacemark(new YMaps.GeoPoint(-161.673, 83.820), "Г—ДЌЕ„Е€Г®Дє Г®Г§ДєД‘Г®")
     ], "my#style3"),
 
-    createGroup("Пристань", 4, [
-      createPlacemark(new YMaps.GeoPoint(-172.903, 84.683), "Склад Восточной Имперской компании")
+    createGroup("ДЋД‘ДЌЕ„Е€Е•Г­Гј", 4, [
+      createPlacemark(new YMaps.GeoPoint(-172.903, 84.683), "ЕѓД™Г«Е•Г¤ Г‚Г®Е„Е€Г®Г·Г­Г®Г© ДЊД›ДЏДєД‘Е„Д™Г®Г© Д™Г®Д›ДЏЕ•Г­ДЌДЌ")
     ], "my#style4"),
 
-    createGroup("Камнь-хранитель", 5, [
-      createPlacemark(new YMaps.GeoPoint(-161.778, 83.974), "Камень Атронаха"),
-      createPlacemark(new YMaps.GeoPoint(-165.005, 84.719), "Камень Башни"),
-      createPlacemark(new YMaps.GeoPoint(-160.610, 84.777), "Камень Змея"),
-      createPlacemark(new YMaps.GeoPoint(-174.542, 84.770), "Камень Коня"),
-      createPlacemark(new YMaps.GeoPoint(-170.943, 83.815), "Камень Леди"),
-      createPlacemark(new YMaps.GeoPoint(-168.794, 84.456), "Камень Лорда"),
-      createPlacemark(new YMaps.GeoPoint(-177.593, 84.257), "Камень Любовника"),
-      createPlacemark(new YMaps.GeoPoint(-166.275, 84.110), "Камень Ритуала"),
-      createPlacemark(new YMaps.GeoPoint(-159.535, 83.474), "Камень Тени"),
-      createPlacemark(new YMaps.GeoPoint(-172.273, 84.583), "Камень Ученика"),
-      createPlacemark(new YMaps.GeoPoint(-168.981, 83.790), "Камни-хранители")
+    createGroup("ДЕ•Д›Г­Гј-Е‘Д‘Е•Г­ДЌЕ€ДєГ«Гј", 5, [
+      createPlacemark(new YMaps.GeoPoint(-161.778, 83.974), "ДЕ•Д›ДєГ­Гј Е”Е€Д‘Г®Г­Е•Е‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-165.005, 84.719), "ДЕ•Д›ДєГ­Гј ГЃЕ•Е™Г­ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-160.610, 84.777), "ДЕ•Д›ДєГ­Гј Г‡Д›ДєЛ™"),
+      createPlacemark(new YMaps.GeoPoint(-174.542, 84.770), "ДЕ•Д›ДєГ­Гј ДГ®Г­Л™"),
+      createPlacemark(new YMaps.GeoPoint(-170.943, 83.815), "ДЕ•Д›ДєГ­Гј Г‹ДєГ¤ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-168.794, 84.456), "ДЕ•Д›ДєГ­Гј Г‹Г®Д‘Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-177.593, 84.257), "ДЕ•Д›ДєГ­Гј Г‹ЕЈГЎГ®ГўГ­ДЌД™Е•"),
+      createPlacemark(new YMaps.GeoPoint(-166.275, 84.110), "ДЕ•Д›ДєГ­Гј ДђДЌЕ€ГіЕ•Г«Е•"),
+      createPlacemark(new YMaps.GeoPoint(-159.535, 83.474), "ДЕ•Д›ДєГ­Гј Е‡ДєГ­ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-172.273, 84.583), "ДЕ•Д›ДєГ­Гј Г“Г·ДєГ­ДЌД™Е•"),
+      createPlacemark(new YMaps.GeoPoint(-168.981, 83.790), "ДЕ•Д›Г­ДЌ-Е‘Д‘Е•Г­ДЌЕ€ДєГ«ДЌ")
     ], "my#style5"),
 
-    createGroup("Логово дракона", 6, [
-      createPlacemark(new YMaps.GeoPoint(-169.439, 84.412), "Алтарь Рожденного Небом"),
-      createPlacemark(new YMaps.GeoPoint(-160.518, 83.840), "Вершина Северный Ветер"),
-      createPlacemark(new YMaps.GeoPoint(-159.372, 83.387), "Высота Откушенный Язык"),
-      createPlacemark(new YMaps.GeoPoint(-163.785, 84.512), "Гора Антор"),
-      createPlacemark(new YMaps.GeoPoint(-165.284, 84.254), "Двуглавый пик"),
-      createPlacemark(new YMaps.GeoPoint(-177.109, 84.425), "Кратер Драконий Зуб"),
-      createPlacemark(new YMaps.GeoPoint(-164.381, 83.555), "Осенняя сторожевая башня"),
-      createPlacemark(new YMaps.GeoPoint(-171.470, 84.347), "Пик Древних"),
-      createPlacemark(new YMaps.GeoPoint(-161.683, 84.071), "Скелетный гребень"),
-      createPlacemark(new YMaps.GeoPoint(-169.215, 83.549), "Ход Древних")
+    createGroup("Г‹Г®ДѓГ®ГўГ® Г¤Д‘Е•Д™Г®Г­Е•", 6, [
+      createPlacemark(new YMaps.GeoPoint(-169.439, 84.412), "Е”Г«Е€Е•Д‘Гј ДђГ®Д‡Г¤ДєГ­Г­Г®ДѓГ® ГЌДєГЎГ®Д›"),
+      createPlacemark(new YMaps.GeoPoint(-160.518, 83.840), "Г‚ДєД‘Е™ДЌГ­Е• ЕѓДєГўДєД‘Г­Е±Г© Г‚ДєЕ€ДєД‘"),
+      createPlacemark(new YMaps.GeoPoint(-159.372, 83.387), "Г‚Е±Е„Г®Е€Е• ГЋЕ€Д™ГіЕ™ДєГ­Г­Е±Г© ГџГ§Е±Д™"),
+      createPlacemark(new YMaps.GeoPoint(-163.785, 84.512), "Д‚Г®Д‘Е• Е”Г­Е€Г®Д‘"),
+      createPlacemark(new YMaps.GeoPoint(-165.284, 84.254), "Г„ГўГіДѓГ«Е•ГўЕ±Г© ДЏДЌД™"),
+      createPlacemark(new YMaps.GeoPoint(-177.109, 84.425), "ДД‘Е•Е€ДєД‘ Г„Д‘Е•Д™Г®Г­ДЌГ© Г‡ГіГЎ"),
+      createPlacemark(new YMaps.GeoPoint(-164.381, 83.555), "ГЋЕ„ДєГ­Г­Л™Л™ Е„Е€Г®Д‘Г®Д‡ДєГўЕ•Л™ ГЎЕ•Е™Г­Л™"),
+      createPlacemark(new YMaps.GeoPoint(-171.470, 84.347), "ДЋДЌД™ Г„Д‘ДєГўГ­ДЌЕ‘"),
+      createPlacemark(new YMaps.GeoPoint(-161.683, 84.071), "ЕѓД™ДєГ«ДєЕ€Г­Е±Г© ДѓД‘ДєГЎДєГ­Гј"),
+      createPlacemark(new YMaps.GeoPoint(-169.215, 83.549), "ЕђГ®Г¤ Г„Д‘ДєГўГ­ДЌЕ‘")
     ], "my#style6"),
 
-    createGroup("Двемерские руины", 7, [
-      createPlacemark(new YMaps.GeoPoint(-162.348, 83.491), "Аванчнзел"),
-      createPlacemark(new YMaps.GeoPoint(-164.743, 84.568), "Альфтанд"),
-      createPlacemark(new YMaps.GeoPoint(-167.656, 84.402), "Башня Мзарк"),
-      createPlacemark(new YMaps.GeoPoint(-178.651, 84.391), "Бтардамз"),
-      createPlacemark(new YMaps.GeoPoint(-164.802, 84.282), "Иркнтанд"),
-      createPlacemark(new YMaps.GeoPoint(-158.408, 83.971), "Кагрензел"),
-      createPlacemark(new YMaps.GeoPoint(-168.860, 84.616), "Мзинчалефт"),
-      createPlacemark(new YMaps.GeoPoint(-159.642, 84.061), "Мзулфт"),
-      createPlacemark(new YMaps.GeoPoint(-164.180, 84.250), "Ральдбтхар")
+    createGroup("Г„ГўДєД›ДєД‘Е„Д™ДЌДє Д‘ГіДЌГ­Е±", 7, [
+      createPlacemark(new YMaps.GeoPoint(-162.348, 83.491), "Е”ГўЕ•Г­Г·Г­Г§ДєГ«"),
+      createPlacemark(new YMaps.GeoPoint(-164.743, 84.568), "Е”Г«ГјГґЕ€Е•Г­Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-167.656, 84.402), "ГЃЕ•Е™Г­Л™ ДљГ§Е•Д‘Д™"),
+      createPlacemark(new YMaps.GeoPoint(-178.651, 84.391), "ГЃЕ€Е•Д‘Г¤Е•Д›Г§"),
+      createPlacemark(new YMaps.GeoPoint(-164.802, 84.282), "ДЊД‘Д™Г­Е€Е•Г­Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-158.408, 83.971), "ДЕ•ДѓД‘ДєГ­Г§ДєГ«"),
+      createPlacemark(new YMaps.GeoPoint(-168.860, 84.616), "ДљГ§ДЌГ­Г·Е•Г«ДєГґЕ€"),
+      createPlacemark(new YMaps.GeoPoint(-159.642, 84.061), "ДљГ§ГіГ«ГґЕ€"),
+      createPlacemark(new YMaps.GeoPoint(-164.180, 84.250), "ДђЕ•Г«ГјГ¤ГЎЕ€Е‘Е•Д‘")
     ], "my#style7"),
 
-    createGroup("Ферма", 8, [
-      createPlacemark(new YMaps.GeoPoint(-159.789, 83.617), "Веселая ферма"),
-      createPlacemark(new YMaps.GeoPoint(-160.720, 84.341), "Ферма \"Остролист\""),
-      createPlacemark(new YMaps.GeoPoint(-160.894, 84.330), "Ферма Хлаалу")
+    createGroup("Г”ДєД‘Д›Е•", 8, [
+      createPlacemark(new YMaps.GeoPoint(-159.789, 83.617), "Г‚ДєЕ„ДєГ«Е•Л™ ГґДєД‘Д›Е•"),
+      createPlacemark(new YMaps.GeoPoint(-160.720, 84.341), "Г”ДєД‘Д›Е• \"ГЋЕ„Е€Д‘Г®Г«ДЌЕ„Е€\""),
+      createPlacemark(new YMaps.GeoPoint(-160.894, 84.330), "Г”ДєД‘Д›Е• ЕђГ«Е•Е•Г«Гі")
     ], "my#style8"),
 
-    createGroup("Форт", 9, [
-      createPlacemark(new YMaps.GeoPoint(-160.991, 83.423), "Башня Светотьмы"),
-      createPlacemark(new YMaps.GeoPoint(-163.513, 84.175), "Висельная скала"),
-      createPlacemark(new YMaps.GeoPoint(-166.153, 83.930), "Высокий Хротгар"),
-      createPlacemark(new YMaps.GeoPoint(-170.875, 83.851), "Глубины Илиналты"),
-      createPlacemark(new YMaps.GeoPoint(-165.940, 84.581), "Дрифтшейд - Приют"),
-      createPlacemark(new YMaps.GeoPoint(-169.006, 84.056), "Западная сторожевая башня"),
-      createPlacemark(new YMaps.GeoPoint(-160.957, 83.586), "Зуб Фалдара"),
-      createPlacemark(new YMaps.GeoPoint(-172.209, 83.615), "Крепость Треснувший Бивень"),
-      createPlacemark(new YMaps.GeoPoint(-165.550, 84.192), "Крепость Феллглоу"),
-      createPlacemark(new YMaps.GeoPoint(-169.102, 83.471), "Кровавый Трон"),
-      createPlacemark(new YMaps.GeoPoint(-162.465, 84.254), "Морвунскар"),
-      createPlacemark(new YMaps.GeoPoint(-177.199, 84.778), "Северная сторожевая крепость"),
-      createPlacemark(new YMaps.GeoPoint(-175.224, 84.362), "Сломанная башня"),
-      createPlacemark(new YMaps.GeoPoint(-162.805, 83.654), "Тревская застава"),
-      createPlacemark(new YMaps.GeoPoint(-161.463, 83.939), "Туманная застава"),
-      createPlacemark(new YMaps.GeoPoint(-163.478, 84.008), "Форт Амол"),
-      createPlacemark(new YMaps.GeoPoint(-169.906, 84.097), "Форт Греймур"),
-      createPlacemark(new YMaps.GeoPoint(-159.729, 83.711), "Форт Гринвол"),
-      createPlacemark(new YMaps.GeoPoint(-167.572, 84.485), "Форт Дунстад"),
-      createPlacemark(new YMaps.GeoPoint(-162.883, 84.431), "Форт Кастав"),
-      createPlacemark(new YMaps.GeoPoint(-167.261, 83.590), "Форт Нойград"),
-      createPlacemark(new YMaps.GeoPoint(-173.125, 83.993), "Форт Сангард"),
-      createPlacemark(new YMaps.GeoPoint(-172.406, 84.521), "Форт Сноухок"),
-      createPlacemark(new YMaps.GeoPoint(-166.688, 84.536), "Форт Феллхаммер"),
-      createPlacemark(new YMaps.GeoPoint(-175.435, 84.765), "Форт Храгстад"),
-      createPlacemark(new YMaps.GeoPoint(-176.845, 84.452), "Хармугстал"),
-      createPlacemark(new YMaps.GeoPoint(-166.844, 84.693), "Храм Призывателей Ночи")                	
+    createGroup("Г”Г®Д‘Е€", 9, [
+      createPlacemark(new YMaps.GeoPoint(-160.991, 83.423), "ГЃЕ•Е™Г­Л™ ЕѓГўДєЕ€Г®Е€ГјД›Е±"),
+      createPlacemark(new YMaps.GeoPoint(-163.513, 84.175), "Г‚ДЌЕ„ДєГ«ГјГ­Е•Л™ Е„Д™Е•Г«Е•"),
+      createPlacemark(new YMaps.GeoPoint(-166.153, 83.930), "Г‚Е±Е„Г®Д™ДЌГ© ЕђД‘Г®Е€ДѓЕ•Д‘"),
+      createPlacemark(new YMaps.GeoPoint(-170.875, 83.851), "Д‚Г«ГіГЎДЌГ­Е± ДЊГ«ДЌГ­Е•Г«Е€Е±"),
+      createPlacemark(new YMaps.GeoPoint(-165.940, 84.581), "Г„Д‘ДЌГґЕ€Е™ДєГ©Г¤ - ДЋД‘ДЌЕЈЕ€"),
+      createPlacemark(new YMaps.GeoPoint(-169.006, 84.056), "Г‡Е•ДЏЕ•Г¤Г­Е•Л™ Е„Е€Г®Д‘Г®Д‡ДєГўЕ•Л™ ГЎЕ•Е™Г­Л™"),
+      createPlacemark(new YMaps.GeoPoint(-160.957, 83.586), "Г‡ГіГЎ Г”Е•Г«Г¤Е•Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-172.209, 83.615), "ДД‘ДєДЏГ®Е„Е€Гј Е‡Д‘ДєЕ„Г­ГіГўЕ™ДЌГ© ГЃДЌГўДєГ­Гј"),
+      createPlacemark(new YMaps.GeoPoint(-165.550, 84.192), "ДД‘ДєДЏГ®Е„Е€Гј Г”ДєГ«Г«ДѓГ«Г®Гі"),
+      createPlacemark(new YMaps.GeoPoint(-169.102, 83.471), "ДД‘Г®ГўЕ•ГўЕ±Г© Е‡Д‘Г®Г­"),
+      createPlacemark(new YMaps.GeoPoint(-162.465, 84.254), "ДљГ®Д‘ГўГіГ­Е„Д™Е•Д‘"),
+      createPlacemark(new YMaps.GeoPoint(-177.199, 84.778), "ЕѓДєГўДєД‘Г­Е•Л™ Е„Е€Г®Д‘Г®Д‡ДєГўЕ•Л™ Д™Д‘ДєДЏГ®Е„Е€Гј"),
+      createPlacemark(new YMaps.GeoPoint(-175.224, 84.362), "ЕѓГ«Г®Д›Е•Г­Г­Е•Л™ ГЎЕ•Е™Г­Л™"),
+      createPlacemark(new YMaps.GeoPoint(-162.805, 83.654), "Е‡Д‘ДєГўЕ„Д™Е•Л™ Г§Е•Е„Е€Е•ГўЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-161.463, 83.939), "Е‡ГіД›Е•Г­Г­Е•Л™ Г§Е•Е„Е€Е•ГўЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-163.478, 84.008), "Г”Г®Д‘Е€ Е”Д›Г®Г«"),
+      createPlacemark(new YMaps.GeoPoint(-169.906, 84.097), "Г”Г®Д‘Е€ Д‚Д‘ДєГ©Д›ГіД‘"),
+      createPlacemark(new YMaps.GeoPoint(-159.729, 83.711), "Г”Г®Д‘Е€ Д‚Д‘ДЌГ­ГўГ®Г«"),
+      createPlacemark(new YMaps.GeoPoint(-167.572, 84.485), "Г”Г®Д‘Е€ Г„ГіГ­Е„Е€Е•Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-162.883, 84.431), "Г”Г®Д‘Е€ ДЕ•Е„Е€Е•Гў"),
+      createPlacemark(new YMaps.GeoPoint(-167.261, 83.590), "Г”Г®Д‘Е€ ГЌГ®Г©ДѓД‘Е•Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-173.125, 83.993), "Г”Г®Д‘Е€ ЕѓЕ•Г­ДѓЕ•Д‘Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-172.406, 84.521), "Г”Г®Д‘Е€ ЕѓГ­Г®ГіЕ‘Г®Д™"),
+      createPlacemark(new YMaps.GeoPoint(-166.688, 84.536), "Г”Г®Д‘Е€ Г”ДєГ«Г«Е‘Е•Д›Д›ДєД‘"),
+      createPlacemark(new YMaps.GeoPoint(-175.435, 84.765), "Г”Г®Д‘Е€ ЕђД‘Е•ДѓЕ„Е€Е•Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-176.845, 84.452), "ЕђЕ•Д‘Д›ГіДѓЕ„Е€Е•Г«"),
+      createPlacemark(new YMaps.GeoPoint(-166.844, 84.693), "ЕђД‘Е•Д› ДЋД‘ДЌГ§Е±ГўЕ•Е€ДєГ«ДєГ© ГЌГ®Г·ДЌ")                	
     ], "my#style9"),
 
-    createGroup("Лагерь великанов", 10, [
-      createPlacemark(new YMaps.GeoPoint(-165.317, 84.315), "Арочный перевал"),
-      createPlacemark(new YMaps.GeoPoint(-169.053, 84.145), "Водоем Холодный Ветер"),
-      createPlacemark(new YMaps.GeoPoint(-166.939, 84.363), "Дом Буранов"),
-      createPlacemark(new YMaps.GeoPoint(-167.915, 84.582), "Красный перевал"),
-      createPlacemark(new YMaps.GeoPoint(-173.153, 84.266), "Лагерь Говорящий Камень"),
-      createPlacemark(new YMaps.GeoPoint(-162.868, 84.058), "Лагерь Сломанная Нога"),
-      createPlacemark(new YMaps.GeoPoint(-171.336, 84.037), "Лагерь Сонное Дерево"),
-      createPlacemark(new YMaps.GeoPoint(-161.097, 84.083), "Паровой лагерь"),
-      createPlacemark(new YMaps.GeoPoint(-169.207, 83.987), "Поцелуй Секунды"),
-      createPlacemark(new YMaps.GeoPoint(-163.953, 84.110), "Седловая скала"),
-      createPlacemark(new YMaps.GeoPoint(-165.042, 84.082), "Скала Гулдун"),
-      createPlacemark(new YMaps.GeoPoint(-168.173, 84.389), "Утес Каменный Холм")
+    createGroup("Г‹Е•ДѓДєД‘Гј ГўДєГ«ДЌД™Е•Г­Г®Гў", 10, [
+      createPlacemark(new YMaps.GeoPoint(-165.317, 84.315), "Е”Д‘Г®Г·Г­Е±Г© ДЏДєД‘ДєГўЕ•Г«"),
+      createPlacemark(new YMaps.GeoPoint(-169.053, 84.145), "Г‚Г®Г¤Г®ДєД› ЕђГ®Г«Г®Г¤Г­Е±Г© Г‚ДєЕ€ДєД‘"),
+      createPlacemark(new YMaps.GeoPoint(-166.939, 84.363), "Г„Г®Д› ГЃГіД‘Е•Г­Г®Гў"),
+      createPlacemark(new YMaps.GeoPoint(-167.915, 84.582), "ДД‘Е•Е„Г­Е±Г© ДЏДєД‘ДєГўЕ•Г«"),
+      createPlacemark(new YMaps.GeoPoint(-173.153, 84.266), "Г‹Е•ДѓДєД‘Гј Д‚Г®ГўГ®Д‘Л™ЕЇДЌГ© ДЕ•Д›ДєГ­Гј"),
+      createPlacemark(new YMaps.GeoPoint(-162.868, 84.058), "Г‹Е•ДѓДєД‘Гј ЕѓГ«Г®Д›Е•Г­Г­Е•Л™ ГЌГ®ДѓЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-171.336, 84.037), "Г‹Е•ДѓДєД‘Гј ЕѓГ®Г­Г­Г®Дє Г„ДєД‘ДєГўГ®"),
+      createPlacemark(new YMaps.GeoPoint(-161.097, 84.083), "ДЋЕ•Д‘Г®ГўГ®Г© Г«Е•ДѓДєД‘Гј"),
+      createPlacemark(new YMaps.GeoPoint(-169.207, 83.987), "ДЋГ®Г¶ДєГ«ГіГ© ЕѓДєД™ГіГ­Г¤Е±"),
+      createPlacemark(new YMaps.GeoPoint(-163.953, 84.110), "ЕѓДєГ¤Г«Г®ГўЕ•Л™ Е„Д™Е•Г«Е•"),
+      createPlacemark(new YMaps.GeoPoint(-165.042, 84.082), "ЕѓД™Е•Г«Е• Д‚ГіГ«Г¤ГіГ­"),
+      createPlacemark(new YMaps.GeoPoint(-168.173, 84.389), "Г“Е€ДєЕ„ ДЕ•Д›ДєГ­Г­Е±Г© ЕђГ®Г«Д›")
     ], "my#style10"),
 
-    createGroup("Роща", 11, [
-      createPlacemark(new YMaps.GeoPoint(-171.981, 83.739), "Вечнозеленая роща"),
-      createPlacemark(new YMaps.GeoPoint(-170.656, 84.229), "Нора Зеленый Ручей"),
-      createPlacemark(new YMaps.GeoPoint(-161.549, 84.119), "Роща Ведьмин Туман"),
-      createPlacemark(new YMaps.GeoPoint(-158.282, 83.638), "Роща Гигантов"),
-      createPlacemark(new YMaps.GeoPoint(-165.826, 84.382), "Скрытая роща")
+    createGroup("ДђГ®ЕЇЕ•", 11, [
+      createPlacemark(new YMaps.GeoPoint(-171.981, 83.739), "Г‚ДєГ·Г­Г®Г§ДєГ«ДєГ­Е•Л™ Д‘Г®ЕЇЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-170.656, 84.229), "ГЌГ®Д‘Е• Г‡ДєГ«ДєГ­Е±Г© ДђГіГ·ДєГ©"),
+      createPlacemark(new YMaps.GeoPoint(-161.549, 84.119), "ДђГ®ЕЇЕ• Г‚ДєГ¤ГјД›ДЌГ­ Е‡ГіД›Е•Г­"),
+      createPlacemark(new YMaps.GeoPoint(-158.282, 83.638), "ДђГ®ЕЇЕ• Д‚ДЌДѓЕ•Г­Е€Г®Гў"),
+      createPlacemark(new YMaps.GeoPoint(-165.826, 84.382), "ЕѓД™Д‘Е±Е€Е•Л™ Д‘Г®ЕЇЕ•")
     ], "my#style11"),
 
-    createGroup("Имперский лагерь", 12, [
-      createPlacemark(new YMaps.GeoPoint(-170.252, 84.581), "Хьялмарк - Имперский лагерь"),
-      createPlacemark(new YMaps.GeoPoint(-169.259, 84.697), "Белый Берег - Имперский лагерь"),
-      createPlacemark(new YMaps.GeoPoint(-166.182, 84.667), "Винтерхолд - Имперский лагерь"),
-      createPlacemark(new YMaps.GeoPoint(-178.037, 84.336), "Предел - Имперский лагерь"),
-      createPlacemark(new YMaps.GeoPoint(-172.561, 84.179), "Вайтран - Имперский лагерь"),
-      createPlacemark(new YMaps.GeoPoint(-159.344, 84.026), "Истмарк - Имперский лагерь"),
-      createPlacemark(new YMaps.GeoPoint(-172.962, 83.838), "Фолкрит - Имперский лагерь"),
-      createPlacemark(new YMaps.GeoPoint(-164.618, 83.615), "Рифт - Имперский лагерь")
+    createGroup("ДЊД›ДЏДєД‘Е„Д™ДЌГ© Г«Е•ДѓДєД‘Гј", 12, [
+      createPlacemark(new YMaps.GeoPoint(-170.252, 84.581), "ЕђГјЛ™Г«Д›Е•Д‘Д™ - ДЊД›ДЏДєД‘Е„Д™ДЌГ© Г«Е•ДѓДєД‘Гј"),
+      createPlacemark(new YMaps.GeoPoint(-169.259, 84.697), "ГЃДєГ«Е±Г© ГЃДєД‘ДєДѓ - ДЊД›ДЏДєД‘Е„Д™ДЌГ© Г«Е•ДѓДєД‘Гј"),
+      createPlacemark(new YMaps.GeoPoint(-166.182, 84.667), "Г‚ДЌГ­Е€ДєД‘Е‘Г®Г«Г¤ - ДЊД›ДЏДєД‘Е„Д™ДЌГ© Г«Е•ДѓДєД‘Гј"),
+      createPlacemark(new YMaps.GeoPoint(-178.037, 84.336), "ДЋД‘ДєГ¤ДєГ« - ДЊД›ДЏДєД‘Е„Д™ДЌГ© Г«Е•ДѓДєД‘Гј"),
+      createPlacemark(new YMaps.GeoPoint(-172.561, 84.179), "Г‚Е•Г©Е€Д‘Е•Г­ - ДЊД›ДЏДєД‘Е„Д™ДЌГ© Г«Е•ДѓДєД‘Гј"),
+      createPlacemark(new YMaps.GeoPoint(-159.344, 84.026), "ДЊЕ„Е€Д›Е•Д‘Д™ - ДЊД›ДЏДєД‘Е„Д™ДЌГ© Г«Е•ДѓДєД‘Гј"),
+      createPlacemark(new YMaps.GeoPoint(-172.962, 83.838), "Г”Г®Г«Д™Д‘ДЌЕ€ - ДЊД›ДЏДєД‘Е„Д™ДЌГ© Г«Е•ДѓДєД‘Гј"),
+      createPlacemark(new YMaps.GeoPoint(-164.618, 83.615), "ДђДЌГґЕ€ - ДЊД›ДЏДєД‘Е„Д™ДЌГ© Г«Е•ДѓДєД‘Гј")
     ], "my#style12"),
 
-    createGroup("Достопримечательность", 13, [
-      createPlacemark(new YMaps.GeoPoint(-166.006, 83.857), "Глотка Мира"),
-      createPlacemark(new YMaps.GeoPoint(-176.963, 84.070), "Гнездо Ветров Предела"),
-      createPlacemark(new YMaps.GeoPoint(-166.617, 84.405), "Камни Вейнон"),
-      createPlacemark(new YMaps.GeoPoint(-172.612, 84.088), "Монумент Гьюкара"),
-      createPlacemark(new YMaps.GeoPoint(-167.103, 83.730), "Одинокая скала"),
-      createPlacemark(new YMaps.GeoPoint(-178.627, 84.474), "Переправа Глубинного Народа"),
-      createPlacemark(new YMaps.GeoPoint(-174.292, 83.931), "Пик Прыжок Барда"),
-      createPlacemark(new YMaps.GeoPoint(-164.236, 83.620), "Руины Бталфта"),
-      createPlacemark(new YMaps.GeoPoint(-160.436, 83.387), "Руины Ркунда"),
-      createPlacemark(new YMaps.GeoPoint(-176.998, 84.184), "Храм Небесной гавани")
+    createGroup("Г„Г®Е„Е€Г®ДЏД‘ДЌД›ДєГ·Е•Е€ДєГ«ГјГ­Г®Е„Е€Гј", 13, [
+      createPlacemark(new YMaps.GeoPoint(-166.006, 83.857), "Д‚Г«Г®Е€Д™Е• ДљДЌД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-176.963, 84.070), "Д‚Г­ДєГ§Г¤Г® Г‚ДєЕ€Д‘Г®Гў ДЋД‘ДєГ¤ДєГ«Е•"),
+      createPlacemark(new YMaps.GeoPoint(-166.617, 84.405), "ДЕ•Д›Г­ДЌ Г‚ДєГ©Г­Г®Г­"),
+      createPlacemark(new YMaps.GeoPoint(-172.612, 84.088), "ДљГ®Г­ГіД›ДєГ­Е€ Д‚ГјЕЈД™Е•Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-167.103, 83.730), "ГЋГ¤ДЌГ­Г®Д™Е•Л™ Е„Д™Е•Г«Е•"),
+      createPlacemark(new YMaps.GeoPoint(-178.627, 84.474), "ДЋДєД‘ДєДЏД‘Е•ГўЕ• Д‚Г«ГіГЎДЌГ­Г­Г®ДѓГ® ГЌЕ•Д‘Г®Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-174.292, 83.931), "ДЋДЌД™ ДЋД‘Е±Д‡Г®Д™ ГЃЕ•Д‘Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-164.236, 83.620), "ДђГіДЌГ­Е± ГЃЕ€Е•Г«ГґЕ€Е•"),
+      createPlacemark(new YMaps.GeoPoint(-160.436, 83.387), "ДђГіДЌГ­Е± ДђД™ГіГ­Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-176.998, 84.184), "ЕђД‘Е•Д› ГЌДєГЎДєЕ„Г­Г®Г© ДѓЕ•ГўЕ•Г­ДЌ")
     ], "my#style13"),
 
-    createGroup("Маяк", 14, [
-      createPlacemark(new YMaps.GeoPoint(-165.490, 84.634), "Инеевый маяк"),
-      createPlacemark(new YMaps.GeoPoint(-171.825, 84.837), "Солитьюд - Маяк")
+    createGroup("ДљЕ•Л™Д™", 14, [
+      createPlacemark(new YMaps.GeoPoint(-165.490, 84.634), "ДЊГ­ДєДєГўЕ±Г© Д›Е•Л™Д™"),
+      createPlacemark(new YMaps.GeoPoint(-171.825, 84.837), "ЕѓГ®Г«ДЌЕ€ГјЕЈГ¤ - ДљЕ•Л™Д™")
     ], "my#style14"),
 
-    createGroup("Шахта", 15, [
-      createPlacemark(new YMaps.GeoPoint(-173.587, 83.915), "Желчная шахта"),
-      createPlacemark(new YMaps.GeoPoint(-169.338, 84.502), "Каменные холмы"),
-      createPlacemark(new YMaps.GeoPoint(-162.076, 84.567), "Свистящая шахта"),
-      createPlacemark(new YMaps.GeoPoint(-160.144, 84.164), "Сумрачная шахта"),
-      createPlacemark(new YMaps.GeoPoint(-168.617, 83.795), "Факельная шахта"),
-      createPlacemark(new YMaps.GeoPoint(-162.254, 83.938), "Черный Брод"),
-      createPlacemark(new YMaps.GeoPoint(-177.484, 84.231), "Шахта Колскеггр"),
-      createPlacemark(new YMaps.GeoPoint(-178.487, 84.131), "Шахта Левая Рука"),
-      createPlacemark(new YMaps.GeoPoint(-158.048, 83.604), "Шахта Потерянный Шанс"),
-      createPlacemark(new YMaps.GeoPoint(-160.654, 83.873), "Шахта Северный Ветер")
+    createGroup("ЕЕ•Е‘Е€Е•", 15, [
+      createPlacemark(new YMaps.GeoPoint(-173.587, 83.915), "Д†ДєГ«Г·Г­Е•Л™ Е™Е•Е‘Е€Е•"),
+      createPlacemark(new YMaps.GeoPoint(-169.338, 84.502), "ДЕ•Д›ДєГ­Г­Е±Дє Е‘Г®Г«Д›Е±"),
+      createPlacemark(new YMaps.GeoPoint(-162.076, 84.567), "ЕѓГўДЌЕ„Е€Л™ЕЇЕ•Л™ Е™Е•Е‘Е€Е•"),
+      createPlacemark(new YMaps.GeoPoint(-160.144, 84.164), "ЕѓГіД›Д‘Е•Г·Г­Е•Л™ Е™Е•Е‘Е€Е•"),
+      createPlacemark(new YMaps.GeoPoint(-168.617, 83.795), "Г”Е•Д™ДєГ«ГјГ­Е•Л™ Е™Е•Е‘Е€Е•"),
+      createPlacemark(new YMaps.GeoPoint(-162.254, 83.938), "Г—ДєД‘Г­Е±Г© ГЃД‘Г®Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-177.484, 84.231), "ЕЕ•Е‘Е€Е• ДГ®Г«Е„Д™ДєДѓДѓД‘"),
+      createPlacemark(new YMaps.GeoPoint(-178.487, 84.131), "ЕЕ•Е‘Е€Е• Г‹ДєГўЕ•Л™ ДђГіД™Е•"),
+      createPlacemark(new YMaps.GeoPoint(-158.048, 83.604), "ЕЕ•Е‘Е€Е• ДЋГ®Е€ДєД‘Л™Г­Г­Е±Г© ЕЕ•Г­Е„"),
+      createPlacemark(new YMaps.GeoPoint(-160.654, 83.873), "ЕЕ•Е‘Е€Е• ЕѓДєГўДєД‘Г­Е±Г© Г‚ДєЕ€ДєД‘")
     ], "my#style15"),
 
-    createGroup("Руины", 16, [
-      createPlacemark(new YMaps.GeoPoint(-163.823, 84.439), "Высота Йоргрим"),
-      createPlacemark(new YMaps.GeoPoint(-176.645, 84.274), "Наблюдательный пост \"Четыре Черепа\""),
-      createPlacemark(new YMaps.GeoPoint(-169.834, 84.406), "Потерянный Валкигг"),
-      createPlacemark(new YMaps.GeoPoint(-170.188, 84.263), "Привал Хамвира"),
-      createPlacemark(new YMaps.GeoPoint(-171.576, 83.673), "Придорожные руины"),
-      createPlacemark(new YMaps.GeoPoint(-161.943, 84.595), "Приют Подмастерья"),
-      createPlacemark(new YMaps.GeoPoint(-170.156, 84.541), "Руины Кьенстаг"),
-      createPlacemark(new YMaps.GeoPoint(-162.318, 84.795), "Руины Небесного Храма"),
-      createPlacemark(new YMaps.GeoPoint(-168.033, 84.653), "Руины Оберег Ветров"),
-      createPlacemark(new YMaps.GeoPoint(-167.296, 83.781), "Северная горная застава")
+    createGroup("ДђГіДЌГ­Е±", 16, [
+      createPlacemark(new YMaps.GeoPoint(-163.823, 84.439), "Г‚Е±Е„Г®Е€Е• Г‰Г®Д‘ДѓД‘ДЌД›"),
+      createPlacemark(new YMaps.GeoPoint(-176.645, 84.274), "ГЌЕ•ГЎГ«ЕЈГ¤Е•Е€ДєГ«ГјГ­Е±Г© ДЏГ®Е„Е€ \"Г—ДєЕ€Е±Д‘Дє Г—ДєД‘ДєДЏЕ•\""),
+      createPlacemark(new YMaps.GeoPoint(-169.834, 84.406), "ДЋГ®Е€ДєД‘Л™Г­Г­Е±Г© Г‚Е•Г«Д™ДЌДѓДѓ"),
+      createPlacemark(new YMaps.GeoPoint(-170.188, 84.263), "ДЋД‘ДЌГўЕ•Г« ЕђЕ•Д›ГўДЌД‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-171.576, 83.673), "ДЋД‘ДЌГ¤Г®Д‘Г®Д‡Г­Е±Дє Д‘ГіДЌГ­Е±"),
+      createPlacemark(new YMaps.GeoPoint(-161.943, 84.595), "ДЋД‘ДЌЕЈЕ€ ДЋГ®Г¤Д›Е•Е„Е€ДєД‘ГјЛ™"),
+      createPlacemark(new YMaps.GeoPoint(-170.156, 84.541), "ДђГіДЌГ­Е± ДГјДєГ­Е„Е€Е•Дѓ"),
+      createPlacemark(new YMaps.GeoPoint(-162.318, 84.795), "ДђГіДЌГ­Е± ГЌДєГЎДєЕ„Г­Г®ДѓГ® ЕђД‘Е•Д›Е•"),
+      createPlacemark(new YMaps.GeoPoint(-168.033, 84.653), "ДђГіДЌГ­Е± ГЋГЎДєД‘ДєДѓ Г‚ДєЕ€Д‘Г®Гў"),
+      createPlacemark(new YMaps.GeoPoint(-167.296, 83.781), "ЕѓДєГўДєД‘Г­Е•Л™ ДѓГ®Д‘Г­Е•Л™ Г§Е•Е„Е€Е•ГўЕ•")
     ], "my#style16"),
 
-    createGroup("Нордские руины", 17, [
-      createPlacemark(new YMaps.GeoPoint(-162.822, 83.554), "Ангарвунд"),
-      createPlacemark(new YMaps.GeoPoint(-159.342, 83.936), "Ансилвунд"),
-      createPlacemark(new YMaps.GeoPoint(-175.601, 83.953), "Валтум"),
-      createPlacemark(new YMaps.GeoPoint(-178.805, 84.057), "Ведьмин оплот"),
-      createPlacemark(new YMaps.GeoPoint(-176.182, 84.585), "Ведьмино гнездо"),
-      createPlacemark(new YMaps.GeoPoint(-169.230, 83.886), "Ветреный пик"),
-      createPlacemark(new YMaps.GeoPoint(-165.440, 83.544), "Ветровая Дуга"),
-      createPlacemark(new YMaps.GeoPoint(-168.563, 84.321), "Волундруд"),
-      createPlacemark(new YMaps.GeoPoint(-176.382, 84.650), "Вольскигге"),
-      createPlacemark(new YMaps.GeoPoint(-163.814, 84.793), "Гробница Исграмора"),
-      createPlacemark(new YMaps.GeoPoint(-164.615, 84.038), "Гробница Хилгрунда"),
-      createPlacemark(new YMaps.GeoPoint(-170.113, 84.244), "Древний каирн"),
-      createPlacemark(new YMaps.GeoPoint(-164.082, 83.760), "Зал Гейрмунда"),
-      createPlacemark(new YMaps.GeoPoint(-166.004, 84.323), "Корваньюнд"),
-      createPlacemark(new YMaps.GeoPoint(-165.099, 84.464), "Курган Железный"),
-      createPlacemark(new YMaps.GeoPoint(-160.249, 84.405), "Курган Ингола"),
-      createPlacemark(new YMaps.GeoPoint(-164.669, 83.773), "Курган Погребальный Огонь"),
-      createPlacemark(new YMaps.GeoPoint(-170.441, 84.376), "Лабиринтиан"),
-      createPlacemark(new YMaps.GeoPoint(-168.900, 84.241), "Лагерь Тихих Лун"),
-      createPlacemark(new YMaps.GeoPoint(-176.523, 84.581), "Лесной оплот"),
-      createPlacemark(new YMaps.GeoPoint(-171.672, 84.292), "Обитель Раннвейг"),
-      createPlacemark(new YMaps.GeoPoint(-174.197, 83.926), "Оплот Потерянная Долина"),
-      createPlacemark(new YMaps.GeoPoint(-179.016, 84.299), "Рагнвальд"),
-      createPlacemark(new YMaps.GeoPoint(-170.191, 84.720), "Руины Высоких Врат"),
-      createPlacemark(new YMaps.GeoPoint(-163.959, 84.646), "Саартал"),
-      createPlacemark(new YMaps.GeoPoint(-170.677, 83.715), "Северный бастион Кричащий Ветер"),
-      createPlacemark(new YMaps.GeoPoint(-170.570, 83.684), "Южный бастион Кричащий Ветер"),
-      createPlacemark(new YMaps.GeoPoint(-165.794, 84.449), "Серебряное логово"),
-      createPlacemark(new YMaps.GeoPoint(-160.964, 84.537), "Снежная Завеса - Святилище"),
-      createPlacemark(new YMaps.GeoPoint(-173.144, 83.656), "Сумеречная гробница"),
-      createPlacemark(new YMaps.GeoPoint(-172.906, 84.448), "Упокоище"),
-      createPlacemark(new YMaps.GeoPoint(-170.413, 84.626), "Устенгрев"),
-      createPlacemark(new YMaps.GeoPoint(-171.813, 84.645), "Фолгунтур"),
-      createPlacemark(new YMaps.GeoPoint(-158.882, 83.453), "Форелхост"),
-      createPlacemark(new YMaps.GeoPoint(-168.548, 84.534), "Фростмир")
+    createGroup("ГЌГ®Д‘Г¤Е„Д™ДЌДє Д‘ГіДЌГ­Е±", 17, [
+      createPlacemark(new YMaps.GeoPoint(-162.822, 83.554), "Е”Г­ДѓЕ•Д‘ГўГіГ­Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-159.342, 83.936), "Е”Г­Е„ДЌГ«ГўГіГ­Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-175.601, 83.953), "Г‚Е•Г«Е€ГіД›"),
+      createPlacemark(new YMaps.GeoPoint(-178.805, 84.057), "Г‚ДєГ¤ГјД›ДЌГ­ Г®ДЏГ«Г®Е€"),
+      createPlacemark(new YMaps.GeoPoint(-176.182, 84.585), "Г‚ДєГ¤ГјД›ДЌГ­Г® ДѓГ­ДєГ§Г¤Г®"),
+      createPlacemark(new YMaps.GeoPoint(-169.230, 83.886), "Г‚ДєЕ€Д‘ДєГ­Е±Г© ДЏДЌД™"),
+      createPlacemark(new YMaps.GeoPoint(-165.440, 83.544), "Г‚ДєЕ€Д‘Г®ГўЕ•Л™ Г„ГіДѓЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-168.563, 84.321), "Г‚Г®Г«ГіГ­Г¤Д‘ГіГ¤"),
+      createPlacemark(new YMaps.GeoPoint(-176.382, 84.650), "Г‚Г®Г«ГјЕ„Д™ДЌДѓДѓДє"),
+      createPlacemark(new YMaps.GeoPoint(-163.814, 84.793), "Д‚Д‘Г®ГЎГ­ДЌГ¶Е• ДЊЕ„ДѓД‘Е•Д›Г®Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-164.615, 84.038), "Д‚Д‘Г®ГЎГ­ДЌГ¶Е• ЕђДЌГ«ДѓД‘ГіГ­Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-170.113, 84.244), "Г„Д‘ДєГўГ­ДЌГ© Д™Е•ДЌД‘Г­"),
+      createPlacemark(new YMaps.GeoPoint(-164.082, 83.760), "Г‡Е•Г« Д‚ДєГ©Д‘Д›ГіГ­Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-166.004, 84.323), "ДГ®Д‘ГўЕ•Г­ГјЕЈГ­Г¤"),
+      createPlacemark(new YMaps.GeoPoint(-165.099, 84.464), "ДГіД‘ДѓЕ•Г­ Д†ДєГ«ДєГ§Г­Е±Г©"),
+      createPlacemark(new YMaps.GeoPoint(-160.249, 84.405), "ДГіД‘ДѓЕ•Г­ ДЊГ­ДѓГ®Г«Е•"),
+      createPlacemark(new YMaps.GeoPoint(-164.669, 83.773), "ДГіД‘ДѓЕ•Г­ ДЋГ®ДѓД‘ДєГЎЕ•Г«ГјГ­Е±Г© ГЋДѓГ®Г­Гј"),
+      createPlacemark(new YMaps.GeoPoint(-170.441, 84.376), "Г‹Е•ГЎДЌД‘ДЌГ­Е€ДЌЕ•Г­"),
+      createPlacemark(new YMaps.GeoPoint(-168.900, 84.241), "Г‹Е•ДѓДєД‘Гј Е‡ДЌЕ‘ДЌЕ‘ Г‹ГіГ­"),
+      createPlacemark(new YMaps.GeoPoint(-176.523, 84.581), "Г‹ДєЕ„Г­Г®Г© Г®ДЏГ«Г®Е€"),
+      createPlacemark(new YMaps.GeoPoint(-171.672, 84.292), "ГЋГЎДЌЕ€ДєГ«Гј ДђЕ•Г­Г­ГўДєГ©Дѓ"),
+      createPlacemark(new YMaps.GeoPoint(-174.197, 83.926), "ГЋДЏГ«Г®Е€ ДЋГ®Е€ДєД‘Л™Г­Г­Е•Л™ Г„Г®Г«ДЌГ­Е•"),
+      createPlacemark(new YMaps.GeoPoint(-179.016, 84.299), "ДђЕ•ДѓГ­ГўЕ•Г«ГјГ¤"),
+      createPlacemark(new YMaps.GeoPoint(-170.191, 84.720), "ДђГіДЌГ­Е± Г‚Е±Е„Г®Д™ДЌЕ‘ Г‚Д‘Е•Е€"),
+      createPlacemark(new YMaps.GeoPoint(-163.959, 84.646), "ЕѓЕ•Е•Д‘Е€Е•Г«"),
+      createPlacemark(new YMaps.GeoPoint(-170.677, 83.715), "ЕѓДєГўДєД‘Г­Е±Г© ГЎЕ•Е„Е€ДЌГ®Г­ ДД‘ДЌГ·Е•ЕЇДЌГ© Г‚ДєЕ€ДєД‘"),
+      createPlacemark(new YMaps.GeoPoint(-170.570, 83.684), "ЕўД‡Г­Е±Г© ГЎЕ•Е„Е€ДЌГ®Г­ ДД‘ДЌГ·Е•ЕЇДЌГ© Г‚ДєЕ€ДєД‘"),
+      createPlacemark(new YMaps.GeoPoint(-165.794, 84.449), "ЕѓДєД‘ДєГЎД‘Л™Г­Г®Дє Г«Г®ДѓГ®ГўГ®"),
+      createPlacemark(new YMaps.GeoPoint(-160.964, 84.537), "ЕѓГ­ДєД‡Г­Е•Л™ Г‡Е•ГўДєЕ„Е• - ЕѓГўЛ™Е€ДЌГ«ДЌЕЇДє"),
+      createPlacemark(new YMaps.GeoPoint(-173.144, 83.656), "ЕѓГіД›ДєД‘ДєГ·Г­Е•Л™ ДѓД‘Г®ГЎГ­ДЌГ¶Е•"),
+      createPlacemark(new YMaps.GeoPoint(-172.906, 84.448), "Г“ДЏГ®Д™Г®ДЌЕЇДє"),
+      createPlacemark(new YMaps.GeoPoint(-170.413, 84.626), "Г“Е„Е€ДєГ­ДѓД‘ДєГў"),
+      createPlacemark(new YMaps.GeoPoint(-171.813, 84.645), "Г”Г®Г«ДѓГіГ­Е€ГіД‘"),
+      createPlacemark(new YMaps.GeoPoint(-158.882, 83.453), "Г”Г®Д‘ДєГ«Е‘Г®Е„Е€"),
+      createPlacemark(new YMaps.GeoPoint(-168.548, 84.534), "Г”Д‘Г®Е„Е€Д›ДЌД‘")
     ], "my#style17"),
 
-    createGroup("Нордская башня", 18, [
-      createPlacemark(new YMaps.GeoPoint(-164.975, 84.137), "Башни Валтейм"),
-      createPlacemark(new YMaps.GeoPoint(-172.334, 83.773), "Башня Баннермист"),
-      createPlacemark(new YMaps.GeoPoint(-174.765, 83.945), "Башня Кредлстоун"),
-      createPlacemark(new YMaps.GeoPoint(-163.555, 83.800), "Нилхейм"),
-      createPlacemark(new YMaps.GeoPoint(-175.754, 84.302), "Разделенные башни"),
-      createPlacemark(new YMaps.GeoPoint(-179.261, 84.030), "Старушечья скала"),
-      createPlacemark(new YMaps.GeoPoint(-170.147, 83.616), "Теневая башня"),
-      createPlacemark(new YMaps.GeoPoint(-175.062, 84.225), "Утес Холодный Ветер"),
-      createPlacemark(new YMaps.GeoPoint(-167.970, 83.727), "Южная горная застава")
+    createGroup("ГЌГ®Д‘Г¤Е„Д™Е•Л™ ГЎЕ•Е™Г­Л™", 18, [
+      createPlacemark(new YMaps.GeoPoint(-164.975, 84.137), "ГЃЕ•Е™Г­ДЌ Г‚Е•Г«Е€ДєГ©Д›"),
+      createPlacemark(new YMaps.GeoPoint(-172.334, 83.773), "ГЃЕ•Е™Г­Л™ ГЃЕ•Г­Г­ДєД‘Д›ДЌЕ„Е€"),
+      createPlacemark(new YMaps.GeoPoint(-174.765, 83.945), "ГЃЕ•Е™Г­Л™ ДД‘ДєГ¤Г«Е„Е€Г®ГіГ­"),
+      createPlacemark(new YMaps.GeoPoint(-163.555, 83.800), "ГЌДЌГ«Е‘ДєГ©Д›"),
+      createPlacemark(new YMaps.GeoPoint(-175.754, 84.302), "ДђЕ•Г§Г¤ДєГ«ДєГ­Г­Е±Дє ГЎЕ•Е™Г­ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-179.261, 84.030), "ЕѓЕ€Е•Д‘ГіЕ™ДєГ·ГјЛ™ Е„Д™Е•Г«Е•"),
+      createPlacemark(new YMaps.GeoPoint(-170.147, 83.616), "Е‡ДєГ­ДєГўЕ•Л™ ГЎЕ•Е™Г­Л™"),
+      createPlacemark(new YMaps.GeoPoint(-175.062, 84.225), "Г“Е€ДєЕ„ ЕђГ®Г«Г®Г¤Г­Е±Г© Г‚ДєЕ€ДєД‘"),
+      createPlacemark(new YMaps.GeoPoint(-167.970, 83.727), "ЕўД‡Г­Е•Л™ ДѓГ®Д‘Г­Е•Л™ Г§Е•Е„Е€Е•ГўЕ•")
     ], "my#style18"),
 
-    createGroup("Крепость орков", 19, [
-      createPlacemark(new YMaps.GeoPoint(-177.332, 84.008), "Душник-Йал"),
-      createPlacemark(new YMaps.GeoPoint(-161.479, 83.468), "Ларгашбур"),
-      createPlacemark(new YMaps.GeoPoint(-177.683, 84.594), "Мор Казгур"),
-      createPlacemark(new YMaps.GeoPoint(-160.266, 84.199), "Нарзулбур")
+    createGroup("ДД‘ДєДЏГ®Е„Е€Гј Г®Д‘Д™Г®Гў", 19, [
+      createPlacemark(new YMaps.GeoPoint(-177.332, 84.008), "Г„ГіЕ™Г­ДЌД™-Г‰Е•Г«"),
+      createPlacemark(new YMaps.GeoPoint(-161.479, 83.468), "Г‹Е•Д‘ДѓЕ•Е™ГЎГіД‘"),
+      createPlacemark(new YMaps.GeoPoint(-177.683, 84.594), "ДљГ®Д‘ ДЕ•Г§ДѓГіД‘"),
+      createPlacemark(new YMaps.GeoPoint(-160.266, 84.199), "ГЌЕ•Д‘Г§ГіГ«ГЎГіД‘")
     ], "my#style19"),
 
-    createGroup("Проход", 20, [
-      createPlacemark(new YMaps.GeoPoint(-164.845, 84.492), "Перевал Странника"),
-      createPlacemark(new YMaps.GeoPoint(-171.787, 84.345), "Северный проход Холодных Скал"),
-      createPlacemark(new YMaps.GeoPoint(-171.787, 84.326), "Южный проход Холодных Скал")
+    createGroup("ДЋД‘Г®Е‘Г®Г¤", 20, [
+      createPlacemark(new YMaps.GeoPoint(-164.845, 84.492), "ДЋДєД‘ДєГўЕ•Г« ЕѓЕ€Д‘Е•Г­Г­ДЌД™Е•"),
+      createPlacemark(new YMaps.GeoPoint(-171.787, 84.345), "ЕѓДєГўДєД‘Г­Е±Г© ДЏД‘Г®Е‘Г®Г¤ ЕђГ®Г«Г®Г¤Г­Е±Е‘ ЕѓД™Е•Г«"),
+      createPlacemark(new YMaps.GeoPoint(-171.787, 84.326), "ЕўД‡Г­Е±Г© ДЏД‘Г®Е‘Г®Г¤ ЕђГ®Г«Г®Г¤Г­Е±Е‘ ЕѓД™Е•Г«")
     ], "my#style20"),
 
-    createGroup("Поселение", 21, [
-      createPlacemark(new YMaps.GeoPoint(-167.352, 84.759), "Данстарское убежище"),
-      createPlacemark(new YMaps.GeoPoint(-167.384, 84.035), "Медоварня Хоннинга"),
-      createPlacemark(new YMaps.GeoPoint(-160.355, 83.573), "Поместье \"Златоцвет\""),
-      createPlacemark(new YMaps.GeoPoint(-158.035, 83.559), "Резиденция \"Черный Вереск\""),
-      createPlacemark(new YMaps.GeoPoint(-161.423, 84.213), "Роща Кин"),
-      createPlacemark(new YMaps.GeoPoint(-175.487, 84.095), "Старый Хролдан"),
-      createPlacemark(new YMaps.GeoPoint(-165.041, 84.408), "Таверна \"Ночные ворота\""),
-      createPlacemark(new YMaps.GeoPoint(-173.636, 84.764), "Талморское посольство"),
-      createPlacemark(new YMaps.GeoPoint(-161.286, 84.285), "Ферма \"Кружка Бренди\""),
-      createPlacemark(new YMaps.GeoPoint(-171.477, 83.641), "Убежище Темного Братства")
+    createGroup("ДЋГ®Е„ДєГ«ДєГ­ДЌДє", 21, [
+      createPlacemark(new YMaps.GeoPoint(-167.352, 84.759), "Г„Е•Г­Е„Е€Е•Д‘Е„Д™Г®Дє ГіГЎДєД‡ДЌЕЇДє"),
+      createPlacemark(new YMaps.GeoPoint(-167.384, 84.035), "ДљДєГ¤Г®ГўЕ•Д‘Г­Л™ ЕђГ®Г­Г­ДЌГ­ДѓЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-160.355, 83.573), "ДЋГ®Д›ДєЕ„Е€ГјДє \"Г‡Г«Е•Е€Г®Г¶ГўДєЕ€\""),
+      createPlacemark(new YMaps.GeoPoint(-158.035, 83.559), "ДђДєГ§ДЌГ¤ДєГ­Г¶ДЌЛ™ \"Г—ДєД‘Г­Е±Г© Г‚ДєД‘ДєЕ„Д™\""),
+      createPlacemark(new YMaps.GeoPoint(-161.423, 84.213), "ДђГ®ЕЇЕ• ДДЌГ­"),
+      createPlacemark(new YMaps.GeoPoint(-175.487, 84.095), "ЕѓЕ€Е•Д‘Е±Г© ЕђД‘Г®Г«Г¤Е•Г­"),
+      createPlacemark(new YMaps.GeoPoint(-165.041, 84.408), "Е‡Е•ГўДєД‘Г­Е• \"ГЌГ®Г·Г­Е±Дє ГўГ®Д‘Г®Е€Е•\""),
+      createPlacemark(new YMaps.GeoPoint(-173.636, 84.764), "Е‡Е•Г«Д›Г®Д‘Е„Д™Г®Дє ДЏГ®Е„Г®Г«ГјЕ„Е€ГўГ®"),
+      createPlacemark(new YMaps.GeoPoint(-161.286, 84.285), "Г”ДєД‘Д›Е• \"ДД‘ГіД‡Д™Е• ГЃД‘ДєГ­Г¤ДЌ\""),
+      createPlacemark(new YMaps.GeoPoint(-171.477, 83.641), "Г“ГЎДєД‡ДЌЕЇДє Е‡ДєД›Г­Г®ДѓГ® ГЃД‘Е•Е€Е„Е€ГўЕ•")
     ], "my#style21"),
 
-    createGroup("Хижина", 22, [
-      createPlacemark(new YMaps.GeoPoint(-175.211, 84.458), "Горный приют"),
-      createPlacemark(new YMaps.GeoPoint(-170.835, 84.295), "Дом Дреласа"),
-      createPlacemark(new YMaps.GeoPoint(-174.303, 84.755), "Железное убежище"),
-      createPlacemark(new YMaps.GeoPoint(-171.053, 84.660), "Заброшенная хижина"),
-      createPlacemark(new YMaps.GeoPoint(-168.019, 84.515), "Зал Дозора"),
-      createPlacemark(new YMaps.GeoPoint(-170.583, 83.506), "Лагерь Анги"),
-      createPlacemark(new YMaps.GeoPoint(-172.286, 83.819), "Охотничий привал"),
-      createPlacemark(new YMaps.GeoPoint(-160.004, 84.354), "Пост Предателя"),
-      createPlacemark(new YMaps.GeoPoint(-162.287, 84.180), "Речная хижина"),
-      createPlacemark(new YMaps.GeoPoint(-169.651, 83.687), "Сосновая застава"),
-      createPlacemark(new YMaps.GeoPoint(-173.145, 84.391), "Хибара краболова"),
-      createPlacemark(new YMaps.GeoPoint(-165.118, 83.639), "Хижина алхимика"),
-      createPlacemark(new YMaps.GeoPoint(-169.074, 83.830), "Хижина Анис"),
-      createPlacemark(new YMaps.GeoPoint(-174.271, 84.241), "Хижина Лунда"),
-      createPlacemark(new YMaps.GeoPoint(-173.173, 84.565), "Хижина Мико"),
-      createPlacemark(new YMaps.GeoPoint(-163.726, 83.531), "Хижина Фроки")              	
+    createGroup("ЕђДЌД‡ДЌГ­Е•", 22, [
+      createPlacemark(new YMaps.GeoPoint(-175.211, 84.458), "Д‚Г®Д‘Г­Е±Г© ДЏД‘ДЌЕЈЕ€"),
+      createPlacemark(new YMaps.GeoPoint(-170.835, 84.295), "Г„Г®Д› Г„Д‘ДєГ«Е•Е„Е•"),
+      createPlacemark(new YMaps.GeoPoint(-174.303, 84.755), "Д†ДєГ«ДєГ§Г­Г®Дє ГіГЎДєД‡ДЌЕЇДє"),
+      createPlacemark(new YMaps.GeoPoint(-171.053, 84.660), "Г‡Е•ГЎД‘Г®Е™ДєГ­Г­Е•Л™ Е‘ДЌД‡ДЌГ­Е•"),
+      createPlacemark(new YMaps.GeoPoint(-168.019, 84.515), "Г‡Е•Г« Г„Г®Г§Г®Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-170.583, 83.506), "Г‹Е•ДѓДєД‘Гј Е”Г­ДѓДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-172.286, 83.819), "ГЋЕ‘Г®Е€Г­ДЌГ·ДЌГ© ДЏД‘ДЌГўЕ•Г«"),
+      createPlacemark(new YMaps.GeoPoint(-160.004, 84.354), "ДЋГ®Е„Е€ ДЋД‘ДєГ¤Е•Е€ДєГ«Л™"),
+      createPlacemark(new YMaps.GeoPoint(-162.287, 84.180), "ДђДєГ·Г­Е•Л™ Е‘ДЌД‡ДЌГ­Е•"),
+      createPlacemark(new YMaps.GeoPoint(-169.651, 83.687), "ЕѓГ®Е„Г­Г®ГўЕ•Л™ Г§Е•Е„Е€Е•ГўЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-173.145, 84.391), "ЕђДЌГЎЕ•Д‘Е• Д™Д‘Е•ГЎГ®Г«Г®ГўЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-165.118, 83.639), "ЕђДЌД‡ДЌГ­Е• Е•Г«Е‘ДЌД›ДЌД™Е•"),
+      createPlacemark(new YMaps.GeoPoint(-169.074, 83.830), "ЕђДЌД‡ДЌГ­Е• Е”Г­ДЌЕ„"),
+      createPlacemark(new YMaps.GeoPoint(-174.271, 84.241), "ЕђДЌД‡ДЌГ­Е• Г‹ГіГ­Г¤Е•"),
+      createPlacemark(new YMaps.GeoPoint(-173.173, 84.565), "ЕђДЌД‡ДЌГ­Е• ДљДЌД™Г®"),
+      createPlacemark(new YMaps.GeoPoint(-163.726, 83.531), "ЕђДЌД‡ДЌГ­Е• Г”Д‘Г®Д™ДЌ")              	
     ], "my#style22"),
 
-    createGroup("Корабль/Место кораблекрушения", 23, [
-      createPlacemark(new YMaps.GeoPoint(-172.034, 84.733), "\"Катария\""),
-      createPlacemark(new YMaps.GeoPoint(-172.071, 84.805), "\"Привередливый слоад\""),
-      createPlacemark(new YMaps.GeoPoint(-166.252, 84.815), "Каприз Хелы"),
-      createPlacemark(new YMaps.GeoPoint(-171.011, 84.735), "Место крушения \"Бегущего по льду\""),
-      createPlacemark(new YMaps.GeoPoint(-161.343, 84.723), "Место крушения \"Гордости Тель Воса\""),
-      createPlacemark(new YMaps.GeoPoint(-159.512, 84.505), "Место крушения \"Зимней Войны\""),
-      createPlacemark(new YMaps.GeoPoint(-169.269, 84.790), "Место крушения \"Соленого молота\""),
-      createPlacemark(new YMaps.GeoPoint(-164.494, 84.768), "Плащ Пилигрима"),
-      createPlacemark(new YMaps.GeoPoint(-175.823, 84.848), "Слеза Сироты")
+    createGroup("ДГ®Д‘Е•ГЎГ«Гј/ДљДєЕ„Е€Г® Д™Г®Д‘Е•ГЎГ«ДєД™Д‘ГіЕ™ДєГ­ДЌЛ™", 23, [
+      createPlacemark(new YMaps.GeoPoint(-172.034, 84.733), "\"ДЕ•Е€Е•Д‘ДЌЛ™\""),
+      createPlacemark(new YMaps.GeoPoint(-172.071, 84.805), "\"ДЋД‘ДЌГўДєД‘ДєГ¤Г«ДЌГўЕ±Г© Е„Г«Г®Е•Г¤\""),
+      createPlacemark(new YMaps.GeoPoint(-166.252, 84.815), "ДЕ•ДЏД‘ДЌГ§ ЕђДєГ«Е±"),
+      createPlacemark(new YMaps.GeoPoint(-171.011, 84.735), "ДљДєЕ„Е€Г® Д™Д‘ГіЕ™ДєГ­ДЌЛ™ \"ГЃДєДѓГіЕЇДєДѓГ® ДЏГ® Г«ГјГ¤Гі\""),
+      createPlacemark(new YMaps.GeoPoint(-161.343, 84.723), "ДљДєЕ„Е€Г® Д™Д‘ГіЕ™ДєГ­ДЌЛ™ \"Д‚Г®Д‘Г¤Г®Е„Е€ДЌ Е‡ДєГ«Гј Г‚Г®Е„Е•\""),
+      createPlacemark(new YMaps.GeoPoint(-159.512, 84.505), "ДљДєЕ„Е€Г® Д™Д‘ГіЕ™ДєГ­ДЌЛ™ \"Г‡ДЌД›Г­ДєГ© Г‚Г®Г©Г­Е±\""),
+      createPlacemark(new YMaps.GeoPoint(-169.269, 84.790), "ДљДєЕ„Е€Г® Д™Д‘ГіЕ™ДєГ­ДЌЛ™ \"ЕѓГ®Г«ДєГ­Г®ДѓГ® Д›Г®Г«Г®Е€Е•\""),
+      createPlacemark(new YMaps.GeoPoint(-164.494, 84.768), "ДЋГ«Е•ЕЇ ДЋДЌГ«ДЌДѓД‘ДЌД›Е•"),
+      createPlacemark(new YMaps.GeoPoint(-175.823, 84.848), "ЕѓГ«ДєГ§Е• ЕѓДЌД‘Г®Е€Е±")
     ], "my#style23"),
 
-    createGroup("Даэдрическое святилище", 24, [
-      createPlacemark(new YMaps.GeoPoint(-162.856, 84.570), "Святилище Азуры"),
-      createPlacemark(new YMaps.GeoPoint(-169.167, 84.431), "Святилище Мерунеса Дагона"),
-      createPlacemark(new YMaps.GeoPoint(-177.295, 84.367), "Святилище Периайта"),
-      createPlacemark(new YMaps.GeoPoint(-174.407, 84.685), "Статуя Меридии"),
-      createPlacemark(new YMaps.GeoPoint(-160.006, 84.292), "Часовня Боэтии")
+    createGroup("Г„Е•ГЅГ¤Д‘ДЌГ·ДєЕ„Д™Г®Дє Е„ГўЛ™Е€ДЌГ«ДЌЕЇДє", 24, [
+      createPlacemark(new YMaps.GeoPoint(-162.856, 84.570), "ЕѓГўЛ™Е€ДЌГ«ДЌЕЇДє Е”Г§ГіД‘Е±"),
+      createPlacemark(new YMaps.GeoPoint(-169.167, 84.431), "ЕѓГўЛ™Е€ДЌГ«ДЌЕЇДє ДљДєД‘ГіГ­ДєЕ„Е• Г„Е•ДѓГ®Г­Е•"),
+      createPlacemark(new YMaps.GeoPoint(-177.295, 84.367), "ЕѓГўЛ™Е€ДЌГ«ДЌЕЇДє ДЋДєД‘ДЌЕ•Г©Е€Е•"),
+      createPlacemark(new YMaps.GeoPoint(-174.407, 84.685), "ЕѓЕ€Е•Е€ГіЛ™ ДљДєД‘ДЌГ¤ДЌДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-160.006, 84.292), "Г—Е•Е„Г®ГўГ­Л™ ГЃГ®ГЅЕ€ДЌДЌ")
     ], "my#style24"),
 
-    createGroup("Конюшня", 25, [
-      createPlacemark(new YMaps.GeoPoint(-168.098, 84.080), "Вайтран - Конюшни"),
-      createPlacemark(new YMaps.GeoPoint(-161.503, 84.291), "Виндхельм - Конюшни"),
-      createPlacemark(new YMaps.GeoPoint(-178.735, 84.182), "Маркарт - Конюшни"),
-      createPlacemark(new YMaps.GeoPoint(-159.456, 83.591), "Рифтен - Конюшни"),
-      createPlacemark(new YMaps.GeoPoint(-173.334, 84.672), "Ферма Катлы")
+    createGroup("ДГ®Г­ЕЈЕ™Г­Л™", 25, [
+      createPlacemark(new YMaps.GeoPoint(-168.098, 84.080), "Г‚Е•Г©Е€Д‘Е•Г­ - ДГ®Г­ЕЈЕ™Г­ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-161.503, 84.291), "Г‚ДЌГ­Г¤Е‘ДєГ«ГјД› - ДГ®Г­ЕЈЕ™Г­ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-178.735, 84.182), "ДљЕ•Д‘Д™Е•Д‘Е€ - ДГ®Г­ЕЈЕ™Г­ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-159.456, 83.591), "ДђДЌГґЕ€ДєГ­ - ДГ®Г­ЕЈЕ™Г­ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-173.334, 84.672), "Г”ДєД‘Д›Е• ДЕ•Е€Г«Е±")
     ], "my#style25"),
 
-    createGroup("Лагерь Братьев Бури", 26, [
-      createPlacemark(new YMaps.GeoPoint(-174.309, 84.633), "Хаафингар - Лагерь Братьев Бури"),
-      createPlacemark(new YMaps.GeoPoint(-169.770, 84.608), "Хьялмарк - Лагерь Братьев Бури"),
-      createPlacemark(new YMaps.GeoPoint(-164.215, 84.343), "Белый Берег - Лагерь Братьев Бури"),
-      createPlacemark(new YMaps.GeoPoint(-175.822, 84.425), "Предел - Лагерь Братьев Бури"),
-      createPlacemark(new YMaps.GeoPoint(-166.193, 84.049), "Вайтран - Лагерь Братьев Бури"),
-      createPlacemark(new YMaps.GeoPoint(-166.923, 83.696), "Фолкрит - Лагерь Братьев Бури"),
-      createPlacemark(new YMaps.GeoPoint(-162.654, 83.755), "Рифт - Лагерь Братьев Бури"),
-      createPlacemark(new YMaps.GeoPoint(-160.996, 84.444), "Винтерхолд - Лагерь Братьев Бури")
+    createGroup("Г‹Е•ДѓДєД‘Гј ГЃД‘Е•Е€ГјДєГў ГЃГіД‘ДЌ", 26, [
+      createPlacemark(new YMaps.GeoPoint(-174.309, 84.633), "ЕђЕ•Е•ГґДЌГ­ДѓЕ•Д‘ - Г‹Е•ДѓДєД‘Гј ГЃД‘Е•Е€ГјДєГў ГЃГіД‘ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-169.770, 84.608), "ЕђГјЛ™Г«Д›Е•Д‘Д™ - Г‹Е•ДѓДєД‘Гј ГЃД‘Е•Е€ГјДєГў ГЃГіД‘ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-164.215, 84.343), "ГЃДєГ«Е±Г© ГЃДєД‘ДєДѓ - Г‹Е•ДѓДєД‘Гј ГЃД‘Е•Е€ГјДєГў ГЃГіД‘ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-175.822, 84.425), "ДЋД‘ДєГ¤ДєГ« - Г‹Е•ДѓДєД‘Гј ГЃД‘Е•Е€ГјДєГў ГЃГіД‘ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-166.193, 84.049), "Г‚Е•Г©Е€Д‘Е•Г­ - Г‹Е•ДѓДєД‘Гј ГЃД‘Е•Е€ГјДєГў ГЃГіД‘ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-166.923, 83.696), "Г”Г®Г«Д™Д‘ДЌЕ€ - Г‹Е•ДѓДєД‘Гј ГЃД‘Е•Е€ГјДєГў ГЃГіД‘ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-162.654, 83.755), "ДђДЌГґЕ€ - Г‹Е•ДѓДєД‘Гј ГЃД‘Е•Е€ГјДєГў ГЃГіД‘ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-160.996, 84.444), "Г‚ДЌГ­Е€ДєД‘Е‘Г®Г«Г¤ - Г‹Е•ДѓДєД‘Гј ГЃД‘Е•Е€ГјДєГў ГЃГіД‘ДЌ")
     ], "my#style26"),
 
-    createGroup("Город", 27, [
-      createPlacemark(new YMaps.GeoPoint(-164.858, 83.763), "Айварстед"),
-      createPlacemark(new YMaps.GeoPoint(-174.857, 84.602), "Драконий Мост"),
-      createPlacemark(new YMaps.GeoPoint(-159.951, 83.782), "Камень Шора"),
-      createPlacemark(new YMaps.GeoPoint(-176.597, 84.364), "Картвастен"),
-      createPlacemark(new YMaps.GeoPoint(-167.890, 83.873), "Ривервуд"),
-      createPlacemark(new YMaps.GeoPoint(-173.859, 84.186), "Рорикстед"),
-      createPlacemark(new YMaps.GeoPoint(-168.194, 83.667), "Хелген")
+    createGroup("Д‚Г®Д‘Г®Г¤", 27, [
+      createPlacemark(new YMaps.GeoPoint(-164.858, 83.763), "Е”Г©ГўЕ•Д‘Е„Е€ДєГ¤"),
+      createPlacemark(new YMaps.GeoPoint(-174.857, 84.602), "Г„Д‘Е•Д™Г®Г­ДЌГ© ДљГ®Е„Е€"),
+      createPlacemark(new YMaps.GeoPoint(-159.951, 83.782), "ДЕ•Д›ДєГ­Гј ЕГ®Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-176.597, 84.364), "ДЕ•Д‘Е€ГўЕ•Е„Е€ДєГ­"),
+      createPlacemark(new YMaps.GeoPoint(-167.890, 83.873), "ДђДЌГўДєД‘ГўГіГ¤"),
+      createPlacemark(new YMaps.GeoPoint(-173.859, 84.186), "ДђГ®Д‘ДЌД™Е„Е€ДєГ¤"),
+      createPlacemark(new YMaps.GeoPoint(-168.194, 83.667), "ЕђДєГ«ДѓДєГ­")
     ], "my#style27"),
 
-    createGroup("Сторожевая башня", 28, [
-      createPlacemark(new YMaps.GeoPoint(-177.108, 84.689), "Башня Белая Сосна"),
-      createPlacemark(new YMaps.GeoPoint(-167.348, 84.216), "Белая сторожевая башня"),
-      createPlacemark(new YMaps.GeoPoint(-163.760, 84.053), "Заброшенная тюрьма"),
-      createPlacemark(new YMaps.GeoPoint(-159.564, 84.355), "Привал Беженцев"),
-      createPlacemark(new YMaps.GeoPoint(-175.020, 84.807), "Руины Вдовьей заставы"),
-      createPlacemark(new YMaps.GeoPoint(-166.104, 84.534), "Сигнальная башня Снежная"),
-      createPlacemark(new YMaps.GeoPoint(-158.044, 83.433), "Сигнальная башня Стендарра"),
-      createPlacemark(new YMaps.GeoPoint(-162.276, 83.755), "Сторожевая башня Рифта"),
-      createPlacemark(new YMaps.GeoPoint(-159.681, 83.841), "Сторожевая башня Шора"),
-      createPlacemark(new YMaps.GeoPoint(-171.108, 83.709), "Фолкрит - Сторожевая башня")
+    createGroup("ЕѓЕ€Г®Д‘Г®Д‡ДєГўЕ•Л™ ГЎЕ•Е™Г­Л™", 28, [
+      createPlacemark(new YMaps.GeoPoint(-177.108, 84.689), "ГЃЕ•Е™Г­Л™ ГЃДєГ«Е•Л™ ЕѓГ®Е„Г­Е•"),
+      createPlacemark(new YMaps.GeoPoint(-167.348, 84.216), "ГЃДєГ«Е•Л™ Е„Е€Г®Д‘Г®Д‡ДєГўЕ•Л™ ГЎЕ•Е™Г­Л™"),
+      createPlacemark(new YMaps.GeoPoint(-163.760, 84.053), "Г‡Е•ГЎД‘Г®Е™ДєГ­Г­Е•Л™ Е€ЕЈД‘ГјД›Е•"),
+      createPlacemark(new YMaps.GeoPoint(-159.564, 84.355), "ДЋД‘ДЌГўЕ•Г« ГЃДєД‡ДєГ­Г¶ДєГў"),
+      createPlacemark(new YMaps.GeoPoint(-175.020, 84.807), "ДђГіДЌГ­Е± Г‚Г¤Г®ГўГјДєГ© Г§Е•Е„Е€Е•ГўЕ±"),
+      createPlacemark(new YMaps.GeoPoint(-166.104, 84.534), "ЕѓДЌДѓГ­Е•Г«ГјГ­Е•Л™ ГЎЕ•Е™Г­Л™ ЕѓГ­ДєД‡Г­Е•Л™"),
+      createPlacemark(new YMaps.GeoPoint(-158.044, 83.433), "ЕѓДЌДѓГ­Е•Г«ГјГ­Е•Л™ ГЎЕ•Е™Г­Л™ ЕѓЕ€ДєГ­Г¤Е•Д‘Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-162.276, 83.755), "ЕѓЕ€Г®Д‘Г®Д‡ДєГўЕ•Л™ ГЎЕ•Е™Г­Л™ ДђДЌГґЕ€Е•"),
+      createPlacemark(new YMaps.GeoPoint(-159.681, 83.841), "ЕѓЕ€Г®Д‘Г®Д‡ДєГўЕ•Л™ ГЎЕ•Е™Г­Л™ ЕГ®Д‘Е•"),
+      createPlacemark(new YMaps.GeoPoint(-171.108, 83.709), "Г”Г®Г«Д™Д‘ДЌЕ€ - ЕѓЕ€Г®Д‘Г®Д‡ДєГўЕ•Л™ ГЎЕ•Е™Г­Л™")
     ], "my#style28"),
 
-    createGroup("Мельница", 29, [
-      createPlacemark(new YMaps.GeoPoint(-167.370, 84.087), "Ферма \"Холодная борозда\""),
-      createPlacemark(new YMaps.GeoPoint(-167.348, 84.289), "Ферма Лорея"),
-      createPlacemark(new YMaps.GeoPoint(-168.089, 84.041), "Ферма Пелагио"),
-      createPlacemark(new YMaps.GeoPoint(-178.367, 84.180), "Ферма Салвиев"),
-      createPlacemark(new YMaps.GeoPoint(-162.841, 83.718), "Ферма Сарети"),
-      createPlacemark(new YMaps.GeoPoint(-159.829, 83.487), "Ферма Снегоходов"),
-      createPlacemark(new YMaps.GeoPoint(-167.229, 84.113), "Ферма Сынов Битвы")
+    createGroup("ДљДєГ«ГјГ­ДЌГ¶Е•", 29, [
+      createPlacemark(new YMaps.GeoPoint(-167.370, 84.087), "Г”ДєД‘Д›Е• \"ЕђГ®Г«Г®Г¤Г­Е•Л™ ГЎГ®Д‘Г®Г§Г¤Е•\""),
+      createPlacemark(new YMaps.GeoPoint(-167.348, 84.289), "Г”ДєД‘Д›Е• Г‹Г®Д‘ДєЛ™"),
+      createPlacemark(new YMaps.GeoPoint(-168.089, 84.041), "Г”ДєД‘Д›Е• ДЋДєГ«Е•ДѓДЌГ®"),
+      createPlacemark(new YMaps.GeoPoint(-178.367, 84.180), "Г”ДєД‘Д›Е• ЕѓЕ•Г«ГўДЌДєГў"),
+      createPlacemark(new YMaps.GeoPoint(-162.841, 83.718), "Г”ДєД‘Д›Е• ЕѓЕ•Д‘ДєЕ€ДЌ"),
+      createPlacemark(new YMaps.GeoPoint(-159.829, 83.487), "Г”ДєД‘Д›Е• ЕѓГ­ДєДѓГ®Е‘Г®Г¤Г®Гў"),
+      createPlacemark(new YMaps.GeoPoint(-167.229, 84.113), "Г”ДєД‘Д›Е• ЕѓЕ±Г­Г®Гў ГЃДЌЕ€ГўЕ±")
     ], "my#style29"),
 
-    createGroup("Лесопилка", "30", [
-      createPlacemark(new YMaps.GeoPoint(-162.928, 84.323), "Деревня Анга"),
-      createPlacemark(new YMaps.GeoPoint(-161.701, 83.563), "Деревня Лесная"),
-      createPlacemark(new YMaps.GeoPoint(-163.017, 84.103), "Лесопилка \"Пирожок\""),
-      createPlacemark(new YMaps.GeoPoint(-171.614, 83.802), "Полулунная лесопилка"),
-      createPlacemark(new YMaps.GeoPoint(-173.503, 84.641), "Солитьюд - Лесопилка")
+    createGroup("Г‹ДєЕ„Г®ДЏДЌГ«Д™Е•", "30", [
+      createPlacemark(new YMaps.GeoPoint(-162.928, 84.323), "Г„ДєД‘ДєГўГ­Л™ Е”Г­ДѓЕ•"),
+      createPlacemark(new YMaps.GeoPoint(-161.701, 83.563), "Г„ДєД‘ДєГўГ­Л™ Г‹ДєЕ„Г­Е•Л™"),
+      createPlacemark(new YMaps.GeoPoint(-163.017, 84.103), "Г‹ДєЕ„Г®ДЏДЌГ«Д™Е• \"ДЋДЌД‘Г®Д‡Г®Д™\""),
+      createPlacemark(new YMaps.GeoPoint(-171.614, 83.802), "ДЋГ®Г«ГіГ«ГіГ­Г­Е•Л™ Г«ДєЕ„Г®ДЏДЌГ«Д™Е•"),
+      createPlacemark(new YMaps.GeoPoint(-173.503, 84.641), "ЕѓГ®Г«ДЌЕ€ГјЕЈГ¤ - Г‹ДєЕ„Г®ДЏДЌГ«Д™Е•")
     ], "my#style30"),
   ];
-  //Группы - конец
+  //Д‚Д‘ГіДЏДЏЕ± - Д™Г®Г­ДєГ¶
 
   for (var i = 0; i < groups.length; i++) {
     addMenuItem(groups[i], map, YMaps.jQuery("#menu"));
@@ -459,7 +459,7 @@ YMaps.jQuery(function () {
 })
 
 function addMenuItem(group, map, menuContainer) {
-  YMaps.jQuery("<img src=\"icons/" + group.num + ".png\" title=\"" + group.title + "\">").bind("click", function () {
+  YMaps.jQuery("<img src=\"./icons/" + group.num + ".png\" title=\"" + group.title + "\">").bind("click", function () {
     var link = YMaps.jQuery(this);
     if (link.hasClass("active")) {
       map.removeOverlay(group);
